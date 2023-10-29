@@ -1,11 +1,14 @@
+import Banner from "../../Layouts/Banner/Banner";
 
-import Banner from '../../Layouts/Header/Banner/Banner';
+
+
+
 
 const Home = () => {
   return (
     <div>
-      <Banner></Banner>
-      <h2>homesdfghjkl</h2>
+      
+   <Banner></Banner>
     </div>
   );
 };
