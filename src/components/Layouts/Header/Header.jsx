@@ -2,7 +2,7 @@
 import { NavLink } from 'react-router-dom';
 import { TbWorld } from "react-icons/tb";
 import { useEffect, useState } from 'react';
-import logo from '../../../../public/asset/Group 527.png'
+import logo from '/public/asset/Group 527.png'
 
 const Header = () => {
 
