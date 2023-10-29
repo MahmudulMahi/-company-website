@@ -1,11 +1,11 @@
 
-import underimg from "../../../../public/asset/Rectangle 344.png"
+import underimg from "/public/asset/Rectangle 344.png"
 
 const Banner = () => {
   return (
     <>
       <div className="hero h-[500px] mt-3" style={{
-        backgroundImage: "url('./public/asset/modern.png')"
+        backgroundImage: "url('/asset/modern.png')"
 
       }}>
 
