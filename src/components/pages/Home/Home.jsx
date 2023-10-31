@@ -1,5 +1,6 @@
 import Banner from "../../Layouts/Banner/Banner";
 import Solutionsecton from "../../Layouts/Solutionsecton/Solutionsecton";
+import ChooseVisionary from "../../Layouts/chooseVisionary/ChooseVisionary";
 
 
 
@@ -11,6 +12,7 @@ const Home = () => {
       
    <Banner></Banner>
    <Solutionsecton></Solutionsecton>
+   <ChooseVisionary></ChooseVisionary>
     </div>
   );
 };
