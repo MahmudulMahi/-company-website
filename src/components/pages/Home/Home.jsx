@@ -8,11 +8,14 @@ import ChooseVisionary from "../../Layouts/chooseVisionary/ChooseVisionary";
 
 const Home = () => {
   return (
-    <div>
-      
-   <Banner></Banner>
-   <Solutionsecton></Solutionsecton>
-   <ChooseVisionary></ChooseVisionary>
+    <div >
+
+      <Banner></Banner>
+      <div className="max-w-max mx-auto">
+        <Solutionsecton></Solutionsecton>
+        <ChooseVisionary></ChooseVisionary>
+      </div>
+
     </div>
   );
 };
