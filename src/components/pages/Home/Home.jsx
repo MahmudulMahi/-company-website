@@ -11,7 +11,7 @@ const Home = () => {
     <div >
 
       <Banner></Banner>
-      <div className="max-w-max mx-auto">
+      <div className="max-w-7xl mx-auto">
         <Solutionsecton></Solutionsecton>
         <ChooseVisionary></ChooseVisionary>
       </div>
