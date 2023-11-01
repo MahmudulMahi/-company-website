@@ -1,5 +1,7 @@
 import Banner from "../../Layouts/Banner/Banner";
+import ProudJourney from "../../Layouts/ProudJourney/ProudJourney";
 import Solutionsecton from "../../Layouts/Solutionsecton/Solutionsecton";
+import Techonologies from "../../Layouts/Techonologies/Techonologies";
 import ChooseVisionary from "../../Layouts/chooseVisionary/ChooseVisionary";
 
 
@@ -14,6 +16,8 @@ const Home = () => {
       <div className="max-w-7xl mx-auto">
         <Solutionsecton></Solutionsecton>
         <ChooseVisionary></ChooseVisionary>
+        <Techonologies></Techonologies>
+        <ProudJourney></ProudJourney>
       </div>
 
     </div>

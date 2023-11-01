@@ -1,5 +1,5 @@
 import icon1 from '/asset/ri_team-line.png'
-import bgimagerec1 from '../../../../public/asset/iconoir_agile.png'
+// import bgimagerec1 from '../../../../public/asset/iconoir_agile.png'
 import icon2 from '/asset/ri_stack-fill.png'
 import icon3 from '/asset/iconoir_agile.png'
 import icon4 from '/asset/material-symbols_partner-exchange.png'
@@ -9,7 +9,7 @@ import icon6 from '/asset/iconoir_agile.png'
 const ChooseVisionary = () => {
   return (
     <div className='mt-20 '>
-      <h2 className='text-[#4169E1] text-3xl text-center font-semibold'><span className='shadow-2xl rounded-full p-3'>~Why Choose Visionary Tech~</span></h2>
+      <h2 className='text-[#4169E1] text-3xl text-center font-semibold'><span className='shadow-2xl rounded-full p-0 md:p-3'>~Why Choose Visionary Tech~</span></h2>
       
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 p-5 mt-5'>
        
