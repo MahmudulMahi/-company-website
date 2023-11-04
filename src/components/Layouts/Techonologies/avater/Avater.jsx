@@ -4,8 +4,8 @@ const Avater = ({ ava }) => {
   const { name,image } = ava
   return (
     <div>
-      <div className="avatar">
-        <div className="w-24 mask mask-hexagon">
+      <div >
+        <div className="">
           <img src={image} />
           
         </div>
