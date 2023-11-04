@@ -9,7 +9,7 @@ const Avater = ({ ava }) => {
           <img src={image} />
           
         </div>
-        
+        <p>{name}</p>
       </div>
     </div>
   );
