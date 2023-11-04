@@ -2,51 +2,61 @@
   {
       "id": 1,
       "name": "HTML 5",
+      "thumbnail":"https://i.ibb.co/Lx17RJF/19.png",
       "image": "https://ibb.co/qrZ2MQP"
   },
   {
       "id": 2,
       "name": "CSS 3",
+      "thumbnail":"https://i.ibb.co/Lx17RJF/19.png",
       "image": "https://ibb.co/FsC4dqt"
   },
   {
       "id": 3,
       "name": "Bootstrap 3",
+      "thumbnail":"https://i.ibb.co/Lx17RJF/19.png",
       "image": "https://ibb.co/4FZqqfz"
   },
   {
       "id": 4,
       "name": "Python 3",
+      "thumbnail":"https://i.ibb.co/Lx17RJF/19.png",
       "image": "https://ibb.co/BgyfB2p"
   },
   {
       "id": 5,
       "name": "django",
+      "thumbnail":"https://i.ibb.co/Lx17RJF/19.png",
       "image": "https://ibb.co/SsPx963"
   },
   {
       "id": 6,
       "name": "React",
+      "thumbnail":"https://i.ibb.co/Lx17RJF/19.png",
       "image": "https://i.ibb.co/v1wvky0/Group-224.png"
   },
   {
       "id": 7,
       "name": "Next",
+      "thumbnail":"https://i.ibb.co/Lx17RJF/19.png",
       "image": "https://i.ibb.co/v1wvky0/Group-224.png"
   },
   {
       "id": 8,
       "name": "Olivia Johnson",
+      "thumbnail":"https://i.ibb.co/Lx17RJF/19.png",
       "image": "https://i.ibb.co/v1wvky0/Group-224.png"
   },
   {
       "id": 9,
       "name": "William Davis",
+      "thumbnail":"https://i.ibb.co/Lx17RJF/19.png",
       "image": "https://i.ibb.co/v1wvky0/Group-224.png"
   },
   {
       "id": 10,
       "name": "Sophia Miller",
+      "thumbnail":"https://i.ibb.co/Lx17RJF/19.png",
       "image": "https://i.ibb.co/v1wvky0/Group-224.png"
   }
 ]
