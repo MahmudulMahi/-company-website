@@ -12,7 +12,7 @@ const Contact = () => {
             when need <span className='text-[#4169E1]'>help!</span></h2>
         </div>
         <div>
-          <form className="card-body ">
+          <form className="card-body w-[600px]">
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Email</span>
