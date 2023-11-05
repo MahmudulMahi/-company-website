@@ -4,6 +4,7 @@ import ProudJourney from "../../Layouts/ProudJourney/ProudJourney";
 import Solutionsecton from "../../Layouts/Solutionsecton/Solutionsecton";
 import Techonologies from "../../Layouts/Techonologies/Techonologies";
 import ChooseVisionary from "../../Layouts/chooseVisionary/ChooseVisionary";
+import Contact from "../../Layouts/contact/Contact";
 
 
 
@@ -20,6 +21,7 @@ const Home = () => {
         <ChooseVisionary></ChooseVisionary>
         <Techonologies></Techonologies>
         <ProudJourney></ProudJourney>
+        <Contact></Contact>
       </div>
 
     </div>
