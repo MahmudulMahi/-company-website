@@ -1,10 +1,11 @@
-import bgimg from '../../../../public/asset/Rectangle 297.png'
+import bgimg from '/asset/Rectangle 297.png'
 // import bgimagerec1 from '../../../../public/asset/iconoir_agile.png'
 const Contact = () => {
   return (
-    <div className='mt-12 '>
+  
+    <div className='mt-12 relative' style={{backgroundImage: `url('/asset/Rectangle 297.png')`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '50vh'}} >
 
-      <div className='flex justify-between'>
+      <div className='flex flex-col md:flex-row justify-between z-20 p-7 '>
         <div>
           <h2 className='text-3xl text-[#4169E1] font-medium '><span className='shadow-2xl rounded-full p-3'>Contact Us ~</span></h2>
 
@@ -12,7 +13,13 @@ const Contact = () => {
             when need <span className='text-[#4169E1]'>help!</span></h2>
         </div>
         <div>
-          <form className="card-body w-[600px]">
+          <form className="card-body border md:w-[600px] ">
+            <div className="form-control">
+              <label className="label">
+                <span className="label-text">Email</span>
+              </label>
+              <input type="email" placeholder="email" className="input input-bordered" required />
+            </div>
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Email</span>
@@ -34,10 +41,8 @@ const Contact = () => {
           </form>
         </div>
       </div>
+    
 
-
-
-      {/* <img src={bgimg} alt="" /> */}
     </div>
 
   );
