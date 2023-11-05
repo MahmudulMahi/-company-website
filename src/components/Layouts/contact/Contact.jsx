@@ -20,7 +20,7 @@ const Contact = () => {
                 <img src={icon1} alt="" />
               </div>
               <div >
-                <p className=''>Office Location</p>
+                <p className='font-semibold'>Office Location</p>
                 <p>Mirpur-14, Dhaka-1230, </p>
                 <p>Bangladesh</p>
               </div>
@@ -30,7 +30,7 @@ const Contact = () => {
                 <img src={icon2} alt="" />
               </div>
               <div>
-                <p>Phone</p>
+                <p className='font-semibold'>Phone</p>
                 <p>017XX-XXXXXXX</p>
                 <p>019XX-XXXXXXX</p>
               </div>
@@ -40,7 +40,7 @@ const Contact = () => {
                 <img src={icon3} alt="" />
               </div>
               <div>
-                <p>Email</p>
+                <p className='font-semibold'>Email</p>
                 <p>sajibsazzadulalam@gmail.com </p>
                 <p>sajibsazzadulalam@gmail.com</p>
               </div>
