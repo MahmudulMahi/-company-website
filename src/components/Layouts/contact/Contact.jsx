@@ -19,7 +19,7 @@ const Contact = () => {
               <div className='bg-white p-5 rounded-xl border' >
                 <img src={icon1} alt="" />
               </div>
-              <div className=''>
+              <div >
                 <p className=''>Office Location</p>
                 <p>Mirpur-14, Dhaka-1230, </p>
                 <p>Bangladesh</p>
