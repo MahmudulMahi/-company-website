@@ -1,5 +1,5 @@
-import bgimg from '/asset/Rectangle 297.png'
-import bgimagerec1 from '../../../../public/asset/dashicons_email-alt.png'
+// import bgimg from '/asset/Rectangle 297.png'
+// import bgimagerec1 from '../../../../public/asset/dashicons_email-alt.png'
 import icon1 from '/asset/mingcute_location-3-line.png'
 import icon2 from '/asset/gg_phone.png'
 import icon3 from '/asset/dashicons_email-alt.png'
@@ -72,7 +72,7 @@ const Contact = () => {
               <textarea className="textarea textarea-bordered" placeholder="Write Message"></textarea>
             </div>
             <div className=" text-center mt-6">
-              <button className="btn btn-accent w-28">Submit</button>
+              <button className="btn text-white bg-[#4169E1] hover:bg-[#4169E1] w-28">Submit</button>
             </div>
           </form>
         </div>
