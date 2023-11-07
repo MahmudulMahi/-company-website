@@ -9,6 +9,15 @@ const Footer = () => {
 
       <div>
       <img className='w-[100px]' src={icon1} alt="" />
+
+      <h2 className='font-medium text-3xl'>Visionary</h2>
+      <p className='text-xl'>Tech Solutions</p>
+
+      <p className='w-60'>Assurance yet bed was improving furniture man. Distrusts delighted Excuse few the remain highly feebly add people manner say. It high at my mind by roof. </p>
+
+      <div>
+
+      </div>
       </div>
     <nav>
           <header className="footer-title">Services</header>
