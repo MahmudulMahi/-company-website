@@ -1,4 +1,4 @@
-import icon1 from '/asset/Group 393.png'
+import icon1 from '/asset/Group 527.png'
 import socalicon1 from '/asset/logos_facebook.png'
 import socalicon2 from '/asset/skill-icons_linkedin.png'
 import socalicon3 from '/asset/Instragram Icon.png'
@@ -6,6 +6,7 @@ import socalicon4 from '/asset/Twitter Icon.png'
 import contacticon1 from '/asset/Group 171.png'
 import contacticon2 from '/asset/dashicons_email-alt.png'
 import contacticon3 from '/asset/mingcute_location-3-line.png'
+// import bgimagerec1 from '../../../../public/asset/Group 527.png'
 
 const Footer = () => {
   return (
