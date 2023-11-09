@@ -4,11 +4,16 @@ import WhoWeAre from '../../Layouts/WhoWeAre';
 
 
 const About = () => {
+
   return (
-    <div>
-      <AboutBanner></AboutBanner>
+    <>
+    <AboutBanner></AboutBanner>
+    <div className="max-w-7xl mx-auto border">
+      
       <WhoWeAre></WhoWeAre>
+      
     </div>
+    </>
   );
 };
 
