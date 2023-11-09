@@ -27,11 +27,11 @@ const WhoWeAre = () => {
             <img className='w-[600px] h-[400px] rounded-lg' src={whoareimg} alt="" />
           </div>
         </div>
-        <div className='flex'>
+        <div className='flex gap-3'>
         {/* ------------- */}
           <div>
-            <div>
-              <img src={iconAbout1} alt="" />
+            <div className='flex flex-col items-center'>
+              <img  src={iconAbout1} alt="" />
               <h2>Out Vision</h2>
             </div>
             Our vision is focused to be a leader company, model at solutions and Information Technology development, solid, profitable and always evolving.
@@ -39,8 +39,8 @@ const WhoWeAre = () => {
           {/* ---------- */}
           {/* ---------- */}
           <div>
-            <div>
-              <img src={iconAbout1} alt="" />
+            <div className='flex flex-col items-center'>
+              <img src={iconAbout2} alt="" />
               <h2>Out Vision</h2>
             </div>
             Our vision is focused to be a leader company, model at solutions and Information Technology development, solid, profitable and always evolving.
@@ -48,8 +48,8 @@ const WhoWeAre = () => {
           {/* ---------- */}
                {/* ---------- */}
                <div>
-            <div>
-              <img src={iconAbout1} alt="" />
+            <div className='flex flex-col items-center'>
+              <img src={iconAbout3} alt="" />
               <h2>Out Vision</h2>
             </div>
             Our vision is focused to be a leader company, model at solutions and Information Technology development, solid, profitable and always evolving.
