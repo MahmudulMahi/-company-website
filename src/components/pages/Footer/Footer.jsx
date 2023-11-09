@@ -6,12 +6,12 @@ import socalicon4 from '/asset/Twitter Icon.png'
 import contacticon1 from '/asset/Group 171.png'
 import contacticon2 from '/asset/dashicons_email-alt.png'
 import contacticon3 from '/asset/mingcute_location-3-line.png'
-// import bgimagerec1 from '../../../../public/asset/Group 527.png'
+// import bgimagerec1 from '../../../../public/asset/aerial.jpg'
 
 const Footer = () => {
   return (
 
-    <footer className=" p-10 bg-base-200 text-base-content mt-56 ">
+    <footer className=" p-10 bg-base-200 text-base-content mt-8 ">
 
       <div className="footer mx-auto max-w-7xl">
 
