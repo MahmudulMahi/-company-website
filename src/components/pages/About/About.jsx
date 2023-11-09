@@ -8,7 +8,7 @@ const About = () => {
   return (
     <>
     <AboutBanner></AboutBanner>
-    <div className="max-w-7xl mx-auto border">
+    <div className="max-w-7xl mx-auto ">
       
       <WhoWeAre></WhoWeAre>
       
