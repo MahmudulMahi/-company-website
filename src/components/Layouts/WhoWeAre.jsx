@@ -1,4 +1,7 @@
 import whoareimg from '/asset/aerial.jpg'
+import iconAbout1 from '../../../public/asset/Future.png'
+import iconAbout2 from '../../../public/asset/Campaign.png'
+import iconAbout3 from '../../../public/asset/Gem.png'
 const WhoWeAre = () => {
   return (
     <div className=''>
@@ -24,11 +27,35 @@ const WhoWeAre = () => {
             <img className='w-[600px] h-[400px] rounded-lg' src={whoareimg} alt="" />
           </div>
         </div>
-        <div>
-
-          <div></div>
-          <div></div>
-          <div></div>
+        <div className='flex'>
+        {/* ------------- */}
+          <div>
+            <div>
+              <img src={iconAbout1} alt="" />
+              <h2>Out Vision</h2>
+            </div>
+            Our vision is focused to be a leader company, model at solutions and Information Technology development, solid, profitable and always evolving.
+          </div>
+          {/* ---------- */}
+          {/* ---------- */}
+          <div>
+            <div>
+              <img src={iconAbout1} alt="" />
+              <h2>Out Vision</h2>
+            </div>
+            Our vision is focused to be a leader company, model at solutions and Information Technology development, solid, profitable and always evolving.
+          </div>
+          {/* ---------- */}
+               {/* ---------- */}
+               <div>
+            <div>
+              <img src={iconAbout1} alt="" />
+              <h2>Out Vision</h2>
+            </div>
+            Our vision is focused to be a leader company, model at solutions and Information Technology development, solid, profitable and always evolving.
+          </div>
+          {/* ---------- */}
+          
         </div>
 
       </div>
