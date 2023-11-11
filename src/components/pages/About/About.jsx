@@ -1,6 +1,7 @@
 
 import AboutBanner from '../../Layouts/AboutBanner/AboutBanner';
 import WhoWeAre from '../../Layouts/WhoWeAre';
+import Contactus from '../../Layouts/contactus/Contactus';
 
 
 const About = () => {
@@ -11,6 +12,7 @@ const About = () => {
     <div className="max-w-7xl mx-auto ">
       
       <WhoWeAre></WhoWeAre>
+      <Contactus></Contactus>
       
     </div>
     </>
