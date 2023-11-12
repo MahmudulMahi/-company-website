@@ -3,11 +3,14 @@ import { BsArrowRightCircle } from "react-icons/bs";
 
 const Contactus = () => {
   return (
-    <div>
-      <img src={contactimg} alt="" />
-      <div className=' relative '>
-        <h2 className='text-2xl absolute bottom-36  text-white '>Contact Us</h2>
-        <button> <BsArrowRightCircle></BsArrowRightCircle></button>
+    <div className="hero min-h-screen" style={{ backgroundImage: "url('/asset/Rectangle 452.png')" }}>
+      <div className="hero-overlay bg-opacity-60"></div>
+      <div className="hero-content text-center text-neutral-content">
+        <div className="max-w-md">
+          <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+          <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+          <button className="btn btn-primary">Get Started</button>
+        </div>
       </div>
     </div>
   );
