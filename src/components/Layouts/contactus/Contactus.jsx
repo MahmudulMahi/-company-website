@@ -1,15 +1,15 @@
-import contactimg from '../../../../public/asset/Rectangle 452.png'
+
 import { BsArrowRightCircle } from "react-icons/bs";
 
 const Contactus = () => {
   return (
-    <div className="hero min-h-screen" style={{ backgroundImage: "url('/asset/Rectangle 452.png')" }}>
+    <div className="hero  h-[300px] mt-7" style={{ backgroundImage: "url('/asset/Rectangle 452.png')" }}>
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-          <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-          <button className="btn btn-primary">Get Started</button>
+          <h1 className="mb-5 text-5xl font-bold">Contact Us</h1>
+      
+          <button className="text-5xl mt-4"><BsArrowRightCircle></BsArrowRightCircle></button>
         </div>
       </div>
     </div>
