@@ -24,10 +24,10 @@ const WhoWeAre = () => {
           </span>
         </div>
         <div className=' flex-1'>
-          <img className='w-[600px] h-[400px] rounded-lg' src={whoareimg} alt="" />
+          <img className='w-[400px] md:w-[600px] h-[300px] md:h-[430px] rounded-lg' src={whoareimg} alt="" />
         </div>
       </div>
-      <div className='flex gap-16 mt-14'>
+      <div className='flex flex-col md:flex-row gap-16 mt-14 py-4'>
         {/* ------------- */}
       
         <div className="card w-96 bg-base-100 shadow-xl">

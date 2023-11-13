@@ -13,8 +13,10 @@ const About = () => {
     <div className="max-w-7xl mx-auto ">
       
       <WhoWeAre></WhoWeAre>
-      <Contactus></Contactus>
+      
+      
       <AboutOurTeam></AboutOurTeam>
+      <Contactus></Contactus>
     </div>
     </>
   );
