@@ -2,7 +2,7 @@ import whoareimg from '/asset/aerial.jpg'
 
 const AboutOurTeam = () => {
   return (
-    <div className='flex gap-20'>
+    <div className='flex  gap-20'>
       <div >
         <img className='w-[600px] h-[400px] rounded-lg' src={whoareimg} alt="" />
       </div>
