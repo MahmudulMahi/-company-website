@@ -3,10 +3,10 @@ import whoareimg from '/asset/aerial.jpg'
 const AboutOurTeam = () => {
   return (
     <div className='flex  gap-20'>
-      <div >
+      <div className='flex-1' >
         <img className='w-[600px] h-[400px] rounded-lg' src={whoareimg} alt="" />
       </div>
-      <div>
+      <div className='flex-1'>
         <h2 className="text-3xl text-[#4169E1] mt-4 font-medium mb-5"> <span className='shadow-2xl rounded-full p-3'>~Who We Are~</span></h2>
         <span className='block mb-3'>
               Since 2022 Visionary Tech Solution has national presence, offering Information Technologies solutions, committed with the innovation, quality and any adjustment for the company´s requirements, our culture is set by values that contributes to create a flexible, creative, implication related and teamwork.
