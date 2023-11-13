@@ -1,5 +1,6 @@
 
 import AboutBanner from '../../Layouts/AboutBanner/AboutBanner';
+import AboutOurTeam from '../../Layouts/AboutOurTeam/AboutOurTeam';
 import WhoWeAre from '../../Layouts/WhoWeAre';
 import Contactus from '../../Layouts/contactus/Contactus';
 
@@ -13,7 +14,7 @@ const About = () => {
       
       <WhoWeAre></WhoWeAre>
       <Contactus></Contactus>
-      
+      <AboutOurTeam></AboutOurTeam>
     </div>
     </>
   );
