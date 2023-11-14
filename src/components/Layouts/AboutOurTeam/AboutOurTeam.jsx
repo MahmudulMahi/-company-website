@@ -20,7 +20,7 @@ const AboutOurTeam = () => {
           We have a wide experience at technical level, a young professional team, with a solid academic formation and advances technical skills who let us deliver high quality solutions to any kind of company
         </span>
         <div className='mt-7'>
-          <button className="btn btn-outline rounded-3xl border-[#4169E1]"><span className='text-[#4169E1]'>Meet our team</span></button>
+          <button className="btn  rounded-3xl border-[#4169E1]"><span className='text-[#4169E1]'>Meet our team</span></button>
         </div>
       </div>
 

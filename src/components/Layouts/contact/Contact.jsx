@@ -48,7 +48,7 @@ const Contact = () => {
           </div>
         </div>
         <div>
-          <form className="card-body border md:w-[600px] mt-10">
+          <form className="card-body bg-base-100 border rounded-3xl md:w-[600px] mt-10">
             <div className="form-control">
               <label className="label">
                 <span className="label-text"></span>

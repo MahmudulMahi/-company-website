@@ -6,7 +6,7 @@ import Header from '../Layouts/Header/Header';
 
 const Root = () => {
   return (
-    <div className='container mx-auto px-5 ' >
+    <div className='container mx-auto px-5 font-Poppins' >
       
       <Header ></Header>  
       
