@@ -2,6 +2,7 @@ import whoareimg from '/asset/aerial.jpg'
 import iconAbout1 from '../../../public/asset/Future.png'
 import iconAbout2 from '../../../public/asset/Campaign.png'
 import iconAbout3 from '../../../public/asset/Gem.png'
+
 const WhoWeAre = () => {
   return (
     <div className='mt-20'>
