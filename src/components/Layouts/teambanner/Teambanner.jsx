@@ -5,7 +5,7 @@ const Teambanner = () => {
     <>
     <div className="hero h-[300px] md:h-[500px] mt-3 " 
     
-    style={{ backgroundImage: "url('/asset/Rectangle 387.png')" 
+    style={{ backgroundImage: "url('/asset/teammanagement.png')" 
     
     }}>
       <div className="hero-overlay bg-opacity-10 bg-gradient-to-r from-blue-500  to-transparent  "></div>
