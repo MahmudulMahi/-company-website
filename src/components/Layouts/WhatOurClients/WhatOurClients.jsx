@@ -1,4 +1,6 @@
 import profailimg from '../../../../public/asset/Rectangle 303 (1).png'
+import coma1 from '../../../../public/asset/icon-park-outline_quote.png'
+import coma2 from '../../../../public/asset/Vector (1).png'
 import icon1 from '/asset/Group 527.png'
 const WhatOurClients = () => {
   return (
@@ -9,31 +11,37 @@ const WhatOurClients = () => {
       <div className="carousel w-full h-full mt-20" style={{ backgroundImage: "url('/asset/Rectangle 248 (1).png')" }}>
         <div id="item1" className=" flex p-10 carousel-item w-full space-x-28 mt-14 ">
           <div className='flex-1  '>
-            <h2>Interactive Minded</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.“</p>
-            <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 w-36" />
-            <div className='flex'>
+            <h2 className='text-4xl mb-3'>Interactive Minded</h2>
+           <div className='flex '>
+            <img className='w-[30px] h-[30px]' src={coma1} alt="" />
+            <p className='text-xl'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.“</p>
+           </div>
+            <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 w-" />
+            <div className='flex gap-5'>
               <div>
                 <img src={icon1} alt="" />
               </div>
               <div>
                 <h2>MD: Sazzadul Alam Sajib</h2>
-                <p>Figma Designer</p>
+                <p className='text-[#4169E1] mt-3'>Figma Designer</p>
               </div>
-              <div className='ml-80'>
+              <div className='ml-64'>
                 <h2>Fiver</h2>
-                <div className="rating">
-                  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" checked />
-                  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+                <div className="rating mt-3">
+                  <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" />
+                  <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" checked />
+                  <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" />
+                  <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" />
+                  <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" />
                 </div>
               </div>
             </div>
           </div>
-          <div className='pr-12'>
+          <div className='pr-12 relative'>
             <img src={profailimg} className="w-[220px]" />
+            <div className='absolute top-2 right-10'>
+            <img src={coma2} alt="" />
+            </div>
           </div>
         </div>
         <div id="item2" className="carousel-item w-full">
