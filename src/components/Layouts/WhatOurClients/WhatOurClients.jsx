@@ -7,7 +7,7 @@ const WhatOurClients = () => {
         <span className='shadow-2xl rounded-full p-0 md:p-3'>~ What Our Clients think ~</span>
       </div>
       <div className="carousel w-full h-full mt-20" style={{ backgroundImage: "url('/asset/Rectangle 248 (1).png')" }}>
-        <div id="item1" className=" flex p-10 carousel-item w-full space-x-48 mt-14 ">
+        <div id="item1" className=" flex p-10 carousel-item w-full space-x-28 mt-14 ">
           <div className='flex-1  '>
             <h2>Interactive Minded</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.“</p>
@@ -32,7 +32,7 @@ const WhatOurClients = () => {
               </div>
             </div>
           </div>
-          <div className=''>
+          <div className='pr-12'>
             <img src={profailimg} className="w-[220px]" />
           </div>
         </div>
