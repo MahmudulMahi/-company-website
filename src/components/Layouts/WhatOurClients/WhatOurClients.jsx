@@ -10,9 +10,7 @@ const WhatOurClients = () => {
       <div className='text-[#4169E1] text-3xl text-center font-semibold mt-8'>
         <span className='shadow-2xl rounded-full p-0 md:p-3'>~ What Our Clients think ~</span>
       </div>
-      <div className="carousel w-full  mt-20 " style={{
-        width: "",         
-        backgroundImage: "url('/asset/Rectangle 248 (1).png')" }}>
+      <div className="carousel flex  w-full  mt-20 " >
         <div id="item1" className=" flex flex-col md:flex-row  carousel-item w-full space-x-28 mt-14 ">
           <div className='flex-1 '>
             <h2 className='text-4xl mb-3'>Interactive Minded</h2>
@@ -29,7 +27,7 @@ const WhatOurClients = () => {
                 <h2>MD: Sazzadul Alam Sajib</h2>
                 <p className='text-[#4169E1] mt-3'>Figma Designer</p>
               </div>
-              <div className='ml-64'>
+              <div className='ml-4 md:ml-64'>
                 <h2>Fiver</h2>
                 <div className="rating mt-3">
                   <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" />
@@ -48,7 +46,7 @@ const WhatOurClients = () => {
             </div>
           </div>
         </div>
-        <div id="item2" className=" flex pl-10 carousel-item w-full space-x-28 mt-14 ">
+        <div id="item2" className=" flex flex-col md:flex-row  carousel-item w-full space-x-28 mt-14 ">
           <div className='flex-1 '>
             <h2 className='text-4xl mb-3'>Interactive Minded</h2>
            <div className='flex '>
@@ -64,7 +62,7 @@ const WhatOurClients = () => {
                 <h2>MD: Sazzadul Alam Sajib</h2>
                 <p className='text-[#4169E1] mt-3'>Figma Designer</p>
               </div>
-              <div className='ml-64'>
+              <div className='ml-4 md:ml-64'>
                 <h2>Fiver</h2>
                 <div className="rating mt-3">
                   <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" />
@@ -76,14 +74,14 @@ const WhatOurClients = () => {
               </div>
             </div>
           </div>
-          <div className='pr-12 relative'>
+          <div className='pr-12 relative '>
             <img src={profailimg} className="w-[220px]" />
             <div className='absolute top-2 right-10'>
             <img src={coma2} alt="" />
             </div>
           </div>
         </div>
-        <div id="item3" className=" flex pl-10 carousel-item w-full space-x-28 mt-14 ">
+        <div id="item3" className=" flex flex-col md:flex-row  carousel-item w-full space-x-28 mt-14 ">
           <div className='flex-1 '>
             <h2 className='text-4xl mb-3'>Interactive Minded</h2>
            <div className='flex '>
@@ -99,7 +97,7 @@ const WhatOurClients = () => {
                 <h2>MD: Sazzadul Alam Sajib</h2>
                 <p className='text-[#4169E1] mt-3'>Figma Designer</p>
               </div>
-              <div className='ml-64'>
+              <div className='ml-4 md:ml-64'>
                 <h2>Fiver</h2>
                 <div className="rating mt-3">
                   <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" />
@@ -111,14 +109,14 @@ const WhatOurClients = () => {
               </div>
             </div>
           </div>
-          <div className='pr-12 relative'>
+          <div className='pr-12 relative '>
             <img src={profailimg} className="w-[220px]" />
             <div className='absolute top-2 right-10'>
             <img src={coma2} alt="" />
             </div>
           </div>
         </div>
-        <div id="item4" className=" flex pl-10 carousel-item w-full space-x-28 mt-14 ">
+        <div id="item4" className=" flex flex-col md:flex-row  carousel-item w-full space-x-28 mt-14 ">
           <div className='flex-1 '>
             <h2 className='text-4xl mb-3'>Interactive Minded</h2>
            <div className='flex '>
@@ -134,7 +132,7 @@ const WhatOurClients = () => {
                 <h2>MD: Sazzadul Alam Sajib</h2>
                 <p className='text-[#4169E1] mt-3'>Figma Designer</p>
               </div>
-              <div className='ml-64'>
+              <div className='ml-4 md:ml-64'>
                 <h2>Fiver</h2>
                 <div className="rating mt-3">
                   <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" />
@@ -146,7 +144,7 @@ const WhatOurClients = () => {
               </div>
             </div>
           </div>
-          <div className='pr-12 relative'>
+          <div className='pr-12 relative '>
             <img src={profailimg} className="w-[220px]" />
             <div className='absolute top-2 right-10'>
             <img src={coma2} alt="" />
