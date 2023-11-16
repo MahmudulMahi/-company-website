@@ -1,8 +1,9 @@
 import proudicon1 from '/asset/Rating.png'
 import proudicon2 from '/asset/Global Businessman.png'
-import proudicon3 from '/asset/Vector.png'
+import proudicon3 from '/asset/Vecto111.png'
 import proudicon4 from '/asset/Time Zone.png'
-import proudicon5 from '/asset/Vector (1).png'
+import proudicon5 from '../../../../public/asset/iconicon.png'
+
 
 const ProudJourney = () => {
   return (
