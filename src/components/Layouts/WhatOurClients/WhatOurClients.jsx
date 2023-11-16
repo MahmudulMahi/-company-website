@@ -10,7 +10,9 @@ const WhatOurClients = () => {
       <div className='text-[#4169E1] text-3xl text-center font-semibold mt-8'>
         <span className='shadow-2xl rounded-full p-0 md:p-3'>~ What Our Clients think ~</span>
       </div>
-      <div className="carousel w-full  mt-20 " style={{ backgroundImage: "url('/asset/Rectangle 248 (1).png')" }}>
+      <div className="carousel w-full  mt-20 " style={{
+        width: "",         
+        backgroundImage: "url('/asset/Rectangle 248 (1).png')" }}>
         <div id="item1" className=" flex flex-col md:flex-row  carousel-item w-full space-x-28 mt-14 ">
           <div className='flex-1 '>
             <h2 className='text-4xl mb-3'>Interactive Minded</h2>
@@ -39,7 +41,7 @@ const WhatOurClients = () => {
               </div>
             </div>
           </div>
-          <div className='pr-12 relative'>
+          <div className='pr-12 relative '>
             <img src={profailimg} className="w-[220px]" />
             <div className='absolute top-2 right-10'>
             <img src={coma2} alt="" />
