@@ -9,7 +9,7 @@ import icon6 from '/asset/iconoir_agile.png'
 const ChooseVisionary = () => {
   return (
     <div className='mt-20 '>
-      <h2 className='text-[#4169E1] text-3xl text-center font-semibold'><span className='shadow-2xl rounded-full p-0 md:p-3'>~Why Choose Visionary Tech~</span></h2>
+      <h2 className='text-[#4169E1] text-3xl text-center font-semibold'><span className='shadow-2xl rounded-full p-0 md:p-3 block md:inline-block  '>~Why Choose Visionary Tech~</span></h2>
       
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 p-5 mt-5'>
        
