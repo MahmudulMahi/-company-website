@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import profail from '../../../../public/asset/mahmudul.jpg'
+
 import Ourbordcard from './Ourbordcard/Ourbordcard';
 
 const OurBoard = () => {
@@ -16,9 +16,7 @@ const OurBoard = () => {
       <h2 className='text-[#4169E1] text-3xl text-center font-semibold mt-10 mb-8'><span className='shadow-2xl rounded-full p-0 md:p-3'>~ Our Board ~</span></h2>
 
       <div className='grid grid-cols-1 md:grid-cols-2 justify-items-center gap-8 mt-12'>
-        {
-          profail.map(pro => <Ourbordcard key={pro.id} className='flex-1 max-w-[calc(50%-1rem)] m-2' pro={pro}></Ourbordcard>)
-        }
+      
       </div>
 
    
