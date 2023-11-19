@@ -1,5 +1,5 @@
 
-import underimg from "/public/asset/Rectangle 344.png"
+import underimg from "/asset/Rectangle 344.png"
 
 const Banner = () => {
   return (

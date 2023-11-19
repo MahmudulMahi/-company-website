@@ -1,6 +1,6 @@
-import profailimg from '../../../../public/asset/Rectangle 303 (1).png'
-import coma1 from '../../../../public/asset/icon-park-outline_quote.png'
-import coma2 from '../../../../public/asset/coma2.png'
+import profailimg from '/asset/Rectangle 303 (1).png'
+import coma1 from '/asset/icon-park-outline_quote.png'
+import coma2 from '/asset/coma2.png'
 import icon1 from '/asset/Group 527.png'
 const WhatOurClients = () => {
 

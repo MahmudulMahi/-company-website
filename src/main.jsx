@@ -11,6 +11,7 @@ import Home from './components/pages/Home/Home.jsx';
 import Errorpage from './components/pages/errorpage/Errorpage';
 import About from './components/pages/About/About.jsx';
 import Team from './components/pages/Team/Team.jsx';
+import Services from './components/Services/Services.jsx';
 
 
 const router = createBrowserRouter([
@@ -31,7 +32,12 @@ const router = createBrowserRouter([
       {
         path:'/team',
         element:<Team></Team>
+      },
+      {
+        path:'/services',
+        element:<Services></Services>
       }
+     
     ]
   },
 ]);

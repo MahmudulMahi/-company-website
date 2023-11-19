@@ -31,13 +31,14 @@ const Header = () => {
           </label>
           <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
             <li><NavLink to="/" >Home</NavLink></li>
-            <li>
+            <li><NavLink to="/services">services</NavLink></li>
+            {/* <li>
               <a to="services">services</a>
               <ul className="p-2">
                 <li><a>Submenu 1</a></li>
                 <li><a>Submenu 2</a></li>
               </ul>
-            </li>
+            </li> */}
             <li><NavLink to="/team">Team</NavLink></li>
             <li><NavLink to="/project">Project</NavLink></li>
             <li><NavLink to="/about">About</NavLink></li>
@@ -57,8 +58,9 @@ const Header = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li><NavLink to="/">Home</NavLink></li>
+          <li><NavLink to="/services">services</NavLink></li>
 
-          <li tabIndex={0}>
+          {/* <li tabIndex={0}>
             <details>
               <summary>services</summary>
               <ul className="p-2">
@@ -66,7 +68,7 @@ const Header = () => {
                 <li><a>Submenu 2</a></li>
               </ul>
             </details>
-          </li>
+          </li> */}
           <li><NavLink to="/team">Team</NavLink></li>
           <li><NavLink to="/project">Project</NavLink></li>
           <li><NavLink to="/about">About</NavLink></li>

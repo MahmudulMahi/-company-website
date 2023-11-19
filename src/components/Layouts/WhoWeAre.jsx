@@ -1,7 +1,7 @@
 import whoareimg from '/asset/aerial.jpg'
-import iconAbout1 from '../../../public/asset/Future.png'
-import iconAbout2 from '../../../public/asset/Campaign.png'
-import iconAbout3 from '../../../public/asset/Gem.png'
+import iconAbout1 from '/asset/Future.png'
+import iconAbout2 from '/asset/Campaign.png'
+import iconAbout3 from '/asset/Gem.png'
 
 const WhoWeAre = () => {
   return (
