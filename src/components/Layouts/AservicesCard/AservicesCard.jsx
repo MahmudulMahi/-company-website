@@ -71,3 +71,4 @@ const AservicesCard = ({ aservicescards }) => {
   );
 };
 
+export default AservicesCard;
