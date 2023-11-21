@@ -44,9 +44,9 @@ const AservicesCard = ({ aservicescards }) => {
                 // transformOrigin: "center center",
                  }}>
 
-                 <div className='flex mt-16 items-center justify-center '>
+                 <div className='flex mt-16 items-center justify-center space-x-5'>
                  <div >
-                    <img className='w-[300px] h-[300px] ' src={image} alt="" />
+                    <img className='w-[300px] h-[300px]  ' src={image} alt="" />
                   </div>
                   <div className='space-y-4' >
                     <img className='w-[150px] h-[100px]' src={image1} alt="" />
