@@ -26,16 +26,21 @@ const AservicesCard = ({ aservicescards }) => {
             <div className="modal-box w-full  max-w-7xl">
               <div className='flex gap-8 items-center justify-center'>
                 <div className='flex-1'>
-                  <div >
+                  <div>
+                    <div className='text-3xl font-bold pb-5'>
+                    <h2>{titlemodal}</h2>
+                    </div>
                     <h3 className="font-bold text-lg">{detailstitle}</h3>
                   </div>
                   <div className=''>
+                    
                     <p className="py-4">{description}</p>
                   </div>
                 </div>
-                <div className='flex-1' style={{ backgroundImage: "url('/asset/Rectangle 446.png')",
+                <div className='flex-1 ' style={{ backgroundImage: "url('/asset/Rectangle 446.png')",
                 width: "450px",
                 height: "450px",
+                Shadow:"none"
                 // transform: "rotate(deg)",
                 // transformOrigin: "center center",
                  }}>
@@ -44,7 +49,7 @@ const AservicesCard = ({ aservicescards }) => {
                  <div className='w-[400px]  '>
                     <img src={image} alt="" />
                   </div>
-                  <div className='w-[140px]'>
+                  <div className='w-[150px]'>
                     <img src={image1} alt="" />
                     <img src={image2} alt="" />
                   </div>
