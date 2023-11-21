@@ -8,7 +8,7 @@ const Teambanner = () => {
     style={{ backgroundImage: "url('/asset/teammanagement.png')" 
     
     }}>
-      <div className="hero-overlay bg-opacity-10 bg-gradient-to-r from-blue-500  to-transparent  "></div>
+      <div className="hero-overlay bg-opacity-10 bg-gradient-to-r from-blue-500  to-rgba(65, 105, 225, 0.00)  "></div>
 
     <div className=" flex items-center justify-start text-neutral-content  mr-auto ml-4 md:ml-28  md:whitespace-nowrap ">
         <div className="max-w-md">
