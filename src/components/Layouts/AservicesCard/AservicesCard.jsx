@@ -4,8 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 const AservicesCard = ({ aservicescards }) => {
 
   const { id, title, name, details, icon, image,image1,image2, detailstitle, description,titlemodal } = aservicescards || {}
-
-  const [showDetails, setShowDetails] = useState(false);
+ const modalId = `my_modal_${id}`;
 
  
   return (
@@ -21,8 +20,8 @@ const AservicesCard = ({ aservicescards }) => {
         </div>
         <div className="card-actions justify-end">
           {/* <button onClick={toggleDetails} className="btn btn-primary  ">Learn more </button> */}
-          <button className="p-5 flex items-center gap-2 text-[#008000]" onClick={() => document.getElementById('my_modal_4').showModal()}>learn more <FaArrowRight /></button>
-          <dialog id="my_modal_4" className="modal">
+          <button className="p-5 flex items-center gap-2 text-[#008000]" onClick={() => document.getElementById(modalId).showModal()}>learn more <FaArrowRight /></button>
+          <dialog id={modalId} className="modal">
             <div className="modal-box w-full  max-w-7xl">
               <div className='flex gap-8 items-center justify-center'>
                 <div className='flex-1'>
@@ -45,13 +44,13 @@ const AservicesCard = ({ aservicescards }) => {
                 // transformOrigin: "center center",
                  }}>
 
-                 <div className='flex mt-16 '>
-                 <div className='w-[400px]  '>
-                    <img src={image} alt="" />
+                 <div className='flex mt-16 items-center justify-center '>
+                 <div >
+                    <img className='w-[300px] h-[300px] ' src={image} alt="" />
                   </div>
-                  <div className='w-[150px]'>
-                    <img src={image1} alt="" />
-                    <img src={image2} alt="" />
+                  <div className='space-y-4' >
+                    <img className='w-[150px] h-[100px]' src={image1} alt="" />
+                    <img className='w-[150px] h-[100px]' src={image2} alt="" />
                   </div>
                  </div>
                   
