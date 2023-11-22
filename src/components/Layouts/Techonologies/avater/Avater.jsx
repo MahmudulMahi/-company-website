@@ -13,7 +13,7 @@ const Avater = ({ ava }) => {
 
             </div>
           </div>
-          <div>
+          <div className='text-center text-[#4169E1]'>
             <p>{name}</p>
           </div>
       

@@ -3,13 +3,13 @@ import { FaArrowRight } from "react-icons/fa";
 
 const AservicesCard = ({ aservicescards }) => {
 
-  const { id, title, name, details, icon, image,image1,image2, detailstitle, description,titlemodal } = aservicescards || {}
+  const { id, title,  details, icon, image,image1,image2, detailstitle, description,titlemodal } = aservicescards || {}
  const modalId = `my_modal_${id}`;
 
  
   return (
     <>
-      <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="card  bg-base-100 shadow-xl">
         <figure className="px-10 pt-10">
           <img src={icon} alt="Shoes" className="rounded-xl" />
         </figure>
