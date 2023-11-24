@@ -36,7 +36,7 @@ const Header = () => {
           <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
             <li >
               <NavLink to="/" >Home</NavLink></li>
-            <li><NavLink to="/services">services</NavLink></li>
+            <li><NavLink to="/services">services & Project</NavLink></li>
             {/* <li>
               <a to="services">services</a>
               <ul className="p-2">
@@ -45,16 +45,16 @@ const Header = () => {
               </ul>
             </li> */}
             <li><NavLink to="/team">Team</NavLink></li>
-            <li><NavLink to="/project">Project</NavLink></li>
+            
             <li><NavLink to="/about">About</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
           </ul>
         </div>
         <div className='flex '>
           <div>
-          <img className='lg:ml-10' src={logo} alt="" />
+          <img className='ml-1 lg:ml-10 mt-3 md:mt-0 hidden md:block' src={logo} alt="" />
           </div>
-          <div className='ml-3'>
+          <div className='ml-1 lg:ml-5'>
             <h2 className='text-xl'>Visionary</h2>
             <p className='text-xs mt-1'>Tech Solution</p>
           </div>
@@ -66,7 +66,7 @@ const Header = () => {
             
             <NavLink to="/">Home</NavLink></li>
           <li className={` ${location.pathname === '/services' ? 'border-b-4 border-blue-500' : ''}`} >
-            <NavLink to="/services">services</NavLink></li>
+            <NavLink to="/services">services & Project</NavLink></li>
 
           {/* <li tabIndex={0}>
             <details>
@@ -79,8 +79,7 @@ const Header = () => {
           </li> */}
           <li className={` ${location.pathname === '/team' ? 'border-b-4 border-blue-700' : ''}`}>
             <NavLink to="/team">Team</NavLink></li>
-          <li className={` ${location.pathname === '/project' ? 'border-b-4 border-blue-700' : ''}`} >
-            <NavLink to="/project">Project</NavLink></li>
+        
           <li className={` ${location.pathname === '/about' ? 'border-b-4 border-blue-700' : ''}`}>
             <NavLink to="/about">About</NavLink></li>
           <li className={` ${location.pathname === '/contact' ? 'border-b-4 border-blue-700' : ''}`}>
@@ -102,7 +101,7 @@ const Header = () => {
 
         <div className=' flex items-center gap-5'>
           <TbWorld className='text-2xl'></TbWorld>
-          <label className="swap swap-rotate mr-5 ">
+          <label className="swap swap-rotate mr-0  md:mr-5  ">
 
           
             <input type="checkbox" onChange={handleToggle} />

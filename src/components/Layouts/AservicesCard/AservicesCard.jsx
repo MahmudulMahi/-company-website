@@ -22,8 +22,8 @@ const AservicesCard = ({ aservicescards }) => {
           {/* <button onClick={toggleDetails} className="btn btn-primary  ">Learn more </button> */}
           <button className="p-5 flex items-center gap-2 text-[#008000]" onClick={() => document.getElementById(modalId).showModal()}>learn more <FaArrowRight /></button>
           <dialog id={modalId} className="modal">
-            <div className="modal-box w-full  max-w-7xl">
-              <div className='flex gap-8 items-center justify-center'>
+            <div className="modal-box w-full  max-w-7xl p-2">
+              <div className='flex flex-col-reverse md:flex-row  gap-8 items-center justify-center'>
                 <div className='flex-1'>
                   <div>
                     <div className='text-3xl font-bold pb-5'>
@@ -36,8 +36,9 @@ const AservicesCard = ({ aservicescards }) => {
                     <p className="py-4">{description}</p>
                   </div>
                 </div>
-                <div className='flex-1 ' style={{ backgroundImage: "url('/asset/Rectangle 446.png')",
-                width: "450px",
+                <div className='flex-1 bg-no-repeat ' style={{ backgroundImage: "url('/asset/Rectangle 446.png')",
+                width:"100%",
+                maxwidth: "450px",
                 height: "450px",
                 Shadow:"none"
                 // transform: "rotate(deg)",
@@ -46,7 +47,7 @@ const AservicesCard = ({ aservicescards }) => {
 
                  <div className='flex mt-16 items-center justify-center space-x-5'>
                  <div >
-                    <img className='w-[300px] h-[300px]  ' src={image} alt="" />
+                    <img className='w-[100px] h-[200px]  md:w-[300px] md:h-[300px] ' src={image} alt="" />
                   </div>
                   <div className='space-y-4' >
                     <img className='w-[150px] h-[100px]' src={image1} alt="" />

@@ -12,6 +12,7 @@ import Errorpage from './components/pages/errorpage/Errorpage';
 import About from './components/pages/About/About.jsx';
 import Team from './components/pages/Team/Team.jsx';
 import Services from './components/Services/Services.jsx';
+import ContactFrom from './components/pages/ContactFrom/ContactFrom.jsx';
 
 
 const router = createBrowserRouter([
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
         path:'/services',
         element:<Services></Services>,
         loader: ()=> fetch('/services.json')
+      },
+      {
+        path:'/contact',
+        element:<ContactFrom></ContactFrom>
       }
      
     ]
@@ -44,7 +49,9 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+<div className='p-1'>
+<React.StrictMode>
        <RouterProvider router={router} />
   </React.StrictMode>,
+</div>
 )
