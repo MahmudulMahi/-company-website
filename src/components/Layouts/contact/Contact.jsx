@@ -6,7 +6,7 @@ import icon3 from '/asset/dashicons_email-alt.png'
 const Contact = () => {
   return (
 
-    <div className='mt-12  bg-no-repeat bg-bottom ' style={{ backgroundImage: `url('/asset/Rectangle 297.png')`, backgroundPosition: 'bottom', minHeight: '50vh',backgroundSize: '1300px 250px' }} >
+    <div className='mt-12  bg-no-repeat bg-bottom ' style={{ backgroundImage: `url('/asset/Rectangle 297.png')`, backgroundPosition: 'bottom', minHeight: '50vh',backgroundSize: '1300px 350px' }} >
 
       <div className='flex flex-col md:flex-col lg:flex-row justify-between z-20 p-7 '>
         <div>

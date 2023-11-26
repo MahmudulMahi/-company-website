@@ -17,7 +17,7 @@ const Solutionsecton = () => {
         </div>
 
         <div>
-        <h2 className='text-3xl text-[#4169E1] font-medium shadow-2xl rounded-full p-3 '>Software Development & Consulting Services~</h2>
+        <h2 className='text-3xl text-[#4169E1] font-medium shadow-2xl rounded-full p-3 text-center '>Software Development & <br/>  Consulting Services~</h2>
           <p className='mt-8 font-medium text-xl md:text-3xl md:text-center'> <span className='text-[#4169E1]'>Technology</span> like art is a soaring <br /> exercise of the human imagination </p>
           <div className="relative mt-8">
             <img className='w-[620px] h-[280px] ' src={bgimg} alt="" />
