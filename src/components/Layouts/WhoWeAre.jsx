@@ -11,7 +11,7 @@ const WhoWeAre = () => {
       <div className='flex flex-col md:flex-row gap-20   '>
 
         <div className='flex-1'>
-          <h2 className="text-3xl text-[#4169E1] mt-4 font-medium mb-14"> <span className='shadow-2xl rounded-full p-3 block md:inline-block'>~Who We Are~</span></h2>
+          <h2 className="text-3xl text-[#4169E1] mt-4 font-medium mb-14"> <span className='shadow-2xl rounded-full p-3 block md:inline-block text-center'>~Who We Are~</span></h2>
           <span className='block mb-3'>
             Since 2022 Visionary Tech Solution has national presence, offering Information Technologies solutions, committed with the innovation, quality and any adjustment for the company´s requirements, our culture is set by values that contributes to create a flexible, creative, implication related and teamwork.
           </span>

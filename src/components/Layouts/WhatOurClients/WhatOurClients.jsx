@@ -6,12 +6,12 @@ const WhatOurClients = () => {
 
   
   return (
-    <div className=" mt-12 p-10"  >
+    <div className=" mt-12 p-10 "  >
       <div className='text-[#4169E1] text-3xl text-center font-semibold mt-8'>
-        <span className='shadow-2xl block md:inline-block  rounded-full p-0 md:p-3'>~ What Our Clients think ~</span>
+        <span className='shadow-2xl block md:inline-block  rounded-full p-2 md:p-3'>~ What Our Clients think ~</span>
       </div>
       <div className="carousel flex  w-full  mt-20 " >
-        <div id="item1" className=" flex flex-col md:flex-col lg:flex-row  carousel-item w-full space-x-28 mt-14 ">
+        <div id="item1" className=" flex flex-col md:flex-col lg:flex-row  carousel-item w-full md:space-x-28 mt-14 ">
           <div className='flex-1 '>
             <h2 className='text-4xl mb-3'>Interactive Minded</h2>
            <div className='flex '>
@@ -40,9 +40,9 @@ const WhatOurClients = () => {
             </div>
           </div>
           <div className='pr-12 relative mt-6  '>
-            <img src={profailimg} className="w-[220px]   " />
-            <div className='absolute top-2 right-10 md:right-96 lg:right-10 '>
-            <img src={coma2} alt="" />
+            <img src={profailimg} className="w-[220px]" />
+            <div className='absolute top-2 right-10 md:right-80 lg:right-10 '>
+            <img className='w-8 md:w-14' src={coma2} alt="" />
             </div>
           </div>
         </div>
@@ -76,8 +76,8 @@ const WhatOurClients = () => {
           </div>
           <div className='pr-12 relative '>
             <img src={profailimg} className="w-[220px]" />
-            <div className='absolute top-2 right-10'>
-            <img src={coma2} alt="" />
+            <div className='absolute top-2 right-10 md:right-80 lg:right-10'>
+            <img className='w-8 md:w-14' src={coma2} alt="" />
             </div>
           </div>
         </div>
@@ -111,8 +111,8 @@ const WhatOurClients = () => {
           </div>
           <div className='pr-12 relative '>
             <img src={profailimg} className="w-[220px]" />
-            <div className='absolute top-2 right-10'>
-            <img src={coma2} alt="" />
+            <div className='absolute top-2 right-10 md:right-80 lg:right-10'>
+            <img className='w-8 md:w-14' src={coma2} alt="" />
             </div>
           </div>
         </div>
@@ -146,8 +146,8 @@ const WhatOurClients = () => {
           </div>
           <div className='pr-12 relative '>
             <img src={profailimg} className="w-[220px]" />
-            <div className='absolute top-2 right-10 '>
-            <img src={coma2} alt="" />
+            <div className='absolute top-2 right-10 md:right-80 lg:right-10 '>
+            <img className='w-8 md:w-14' src={coma2} alt="" />
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ const ProudJourney = () => {
   return (
     <div>
       <div className='text-[#4169E1] text-3xl text-center font-semibold mt-8'>
-        <span className='shadow-2xl rounded-full p-0 md:p-3'>~We Are Proud of Our Journey~</span>
+        <span className='shadow-2xl rounded-full p-2 md:p-3 block md:inline-block '>~We Are Proud of Our Journey~</span>
       </div>
 
       <div className='flex flex-col md:flex-col lg:flex-row justify-between gap-4 mt-10 mx-auto'>
