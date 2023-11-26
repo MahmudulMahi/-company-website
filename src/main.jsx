@@ -49,7 +49,7 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-<div className='p-1'>
+<div className='p-1 w-[100%] mx-auto'>
 <React.StrictMode>
        <RouterProvider router={router} />
   </React.StrictMode>,
