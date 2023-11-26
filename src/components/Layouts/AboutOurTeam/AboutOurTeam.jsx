@@ -7,7 +7,7 @@ const AboutOurTeam = () => {
         <img className='w-[600px] h-[300px] md:h-[430px] rounded-lg' src={whoareimg} alt="" />
       </div>
       <div className='flex-1'>
-        <h2 className="text-3xl text-[#4169E1] mt-4 font-medium mb-10"> <span className='shadow-2xl rounded-full p-3 '>~About Our Team~</span></h2>
+        <h2 className="text-3xl text-[#4169E1] mt-4 font-medium mb-10 "> <span className='shadow-2xl rounded-full p-3 block md:inline-block text-center'>~About Our Team~</span></h2>
         <span className='block mb-3'>
           Since 2022 Visionary Tech Solution has national presence, offering Information Technologies solutions, committed with the innovation, quality and any adjustment for the company´s requirements, our culture is set by values that contributes to create a flexible, creative, implication related and teamwork.
         </span>

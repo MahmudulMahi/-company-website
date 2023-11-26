@@ -6,11 +6,11 @@ const WhatOurClients = () => {
 
   
   return (
-    <div className=" mt-12 p-10 "  >
+    <div className="  p-10 "  >
       <div className='text-[#4169E1] text-3xl text-center font-semibold mt-8'>
         <span className='shadow-2xl block md:inline-block  rounded-full p-2 md:p-3'>~ What Our Clients think ~</span>
       </div>
-      <div className="carousel flex  w-full  mt-20 " >
+      <div className="carousel flex  w-full  mt-4 " >
         <div id="item1" className=" flex flex-col md:flex-col lg:flex-row  carousel-item w-full md:space-x-28 mt-14 ">
           <div className='flex-1 '>
             <h2 className='text-4xl mb-3'>Interactive Minded</h2>

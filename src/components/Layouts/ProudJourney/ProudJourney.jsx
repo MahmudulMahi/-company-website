@@ -8,7 +8,7 @@ import proudicon5 from '/asset/iconicon.png'
 const ProudJourney = () => {
   return (
     <div>
-      <div className='text-[#4169E1] text-3xl text-center font-semibold mt-8'>
+      <div className='text-[#4169E1] text-3xl text-center font-semibold mt-12'>
         <span className='shadow-2xl rounded-full p-2 md:p-3 block md:inline-block '>~We Are Proud of Our Journey~</span>
       </div>
 

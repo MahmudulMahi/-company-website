@@ -5,7 +5,7 @@ import iconAbout3 from '/asset/Gem.png'
 
 const WhoWeAre = () => {
   return (
-    <div className='mt-20'>
+    <div className='mt-20 '>
 
 
       <div className='flex flex-col md:flex-row gap-20   '>
