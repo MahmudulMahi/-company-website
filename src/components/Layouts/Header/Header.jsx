@@ -99,8 +99,8 @@ const Header = () => {
           </div> */}
         </div>
 
-        <div className=' flex items-center gap-5'>
-          <TbWorld className='text-2xl'></TbWorld>
+        <div className=' flex items-center gap-5 '>
+          <TbWorld className='text-2xl hidden md:block '></TbWorld>
           <label className="swap swap-rotate mr-0  md:mr-5  ">
 
           

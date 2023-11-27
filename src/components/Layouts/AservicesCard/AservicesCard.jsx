@@ -22,7 +22,7 @@ const AservicesCard = ({ aservicescards }) => {
           {/* <button onClick={toggleDetails} className="btn btn-primary  ">Learn more </button> */}
           <button className="p-5 flex items-center gap-2 text-[#008000]" onClick={() => document.getElementById(modalId).showModal()}>learn more <FaArrowRight /></button>
           <dialog id={modalId} className="modal">
-            <div className="modal-box w-full  max-w-7xl p-2">
+            <div className="modal-box w-full p-2 md:p-16 max-w-7xl ">
               <div className='flex flex-col-reverse md:flex-row  gap-8 items-center justify-center'>
                 <div className='md:flex-1'>
                   <div>
@@ -38,33 +38,35 @@ const AservicesCard = ({ aservicescards }) => {
                 </div>
                 <div className='md:flex-1 w-11  bg-center md:bg-cover ' style={{ backgroundImage: "url('/asset/Rectangle 446.png')",
                 width:"100%",
-                hight:"50%",
                 maxwidth: "450px",
-                height: "450px",
+                height: "sm:200px md:450px lg:450px",
                 Shadow:"none"
                 // transform: "rotate(deg)",
                 // transformOrigin: "center center",
                  }}>
 
-                 <div className='flex mt-16 items-center justify-center space-x-5 '>
+                 <div className='flex mt-2  items-center justify-center space-x-5 '>
                  <div >
-                    <img className='w-[150px] h-[200px]  md:w-[300px] md:h-[300px] ' src={image} alt="" />
+                    <img className='w-56 h-56' src={image} alt="" />
                   </div>
                   <div className='space-y-4' >
-                    <img className='w-[100px] h-[100px] md:w-[150px] md:h-[100px]' src={image1} alt="" />
-                    <img className='w-[100px] h-[100px] md:w-[150px] md:h-[100px]' src={image2} alt="" />
+                    <img className='w-36' src={image1} alt="" />
+                    <img className='w-36' src={image2} alt="" />
                   </div>
                  </div>
                   
                 </div>
+                {/* w-[150px] h-[200px]  md:w-[300px] md:h-[300px] 
                 
+                w-[100px] h-[100px] md:w-[150px] md:h-[100px]
+                */}
             
             
               </div>
               <div className="modal-action">
                   <form method="dialog">
                     {/* if there is a button, it will close the modal */}
-                    <button className="btn">Close</button>
+                    <button className="btn bg-red-600 text-white">Close</button>
                   </form>
                 </div>
               </div>
