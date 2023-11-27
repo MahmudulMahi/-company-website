@@ -2,6 +2,7 @@ import profailimg from '/asset/Rectangle 303 (1).png'
 import coma1 from '/asset/icon-park-outline_quote.png'
 import coma2 from '/asset/coma2.png'
 import icon1 from '/asset/Group 527.png'
+import { FaRegCopy } from "react-icons/fa";
 const WhatOurClients = () => {
 
   
@@ -158,7 +159,11 @@ const WhatOurClients = () => {
         <a href="#item3" className="btn btn-xs">3</a>
         <a href="#item4" className="btn btn-xs">4</a>
       </div>
+      <div className='flex justify-center items-center mt-3'>
+      <button className="btn  bg-slate-100 sm:btn-sm md:btn-md lg:btn-lg text-[#4169E1] ">read More Reviews <FaRegCopy /></button>
+      </div>
     </div>
+    
   );
 };
 

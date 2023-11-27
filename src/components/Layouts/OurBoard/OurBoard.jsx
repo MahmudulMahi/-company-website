@@ -28,7 +28,7 @@ const OurBoard = () => {
           </div>
           <div className="card-body absolute bottom-0 ml-5">
             <h2 className="card-title">Ashraful Islam Spondon</h2>
-            <p>Chief Executive Officer</p>
+            <p className='text-[#4169E1] font-bold'>Chief Executive Officer</p>
 
           </div>
         </div>

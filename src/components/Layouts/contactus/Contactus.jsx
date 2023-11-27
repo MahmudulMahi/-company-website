@@ -1,7 +1,11 @@
 
 import { BsArrowRightCircle } from "react-icons/bs";
+import { Link } from "react-router-dom";
+
 
 const Contactus = () => {
+
+
   return (
     <div className="hero  h-[300px] mt-12" style={{ backgroundImage: "url('/asset/Rectangle 452.png')" }}>
       <div className="hero-overlay bg-opacity-5"></div>
@@ -9,7 +13,11 @@ const Contactus = () => {
         <div className="max-w-md">
           <h1 className="mb-5 text-5xl font-bold">Contact Us</h1>
       
-          <button className="text-5xl mt-4"><BsArrowRightCircle></BsArrowRightCircle></button>
+          <button  className="text-5xl mt-4">
+            <Link to="/contact">
+            <BsArrowRightCircle></BsArrowRightCircle>
+            </Link>
+            </button>
         </div>
       </div>
     </div>

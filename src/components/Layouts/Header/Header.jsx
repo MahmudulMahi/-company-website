@@ -33,10 +33,12 @@ const Header = () => {
           <label tabIndex={0} className="btn btn-ghost lg:hidden" >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
           </label>
-          <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-            <li >
-              <NavLink to="/" >Home</NavLink></li>
-            <li><NavLink to="/services">services & Project</NavLink></li>
+          <ul tabIndex={0} className=" dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+          <li className={` ${location.pathname === '/' ? 'border-b-4 border-blue-700' : ''}`} >
+            
+            <NavLink to="/">Home</NavLink></li>
+            <li className={` ${location.pathname === '/services' ? 'border-b-4 border-blue-500' : ''}`} >
+            <NavLink to="/services">services & Project</NavLink></li>
             {/* <li>
               <a to="services">services</a>
               <ul className="p-2">
@@ -44,10 +46,13 @@ const Header = () => {
                 <li><a>Submenu 2</a></li>
               </ul>
             </li> */}
-            <li><NavLink to="/team">Team</NavLink></li>
+            <li className={` ${location.pathname === '/team' ? 'border-b-4 border-blue-700' : ''}`}>
+            <NavLink to="/team">Team</NavLink></li>
             
-            <li><NavLink to="/about">About</NavLink></li>
-            <li><NavLink to="/contact">Contact</NavLink></li>
+            <li className={` ${location.pathname === '/about' ? 'border-b-4 border-blue-700' : ''}`}>
+            <NavLink to="/about">About</NavLink></li>
+            <li className={` ${location.pathname === '/contact' ? 'border-b-4 border-blue-700' : ''}`}>
+            <NavLink to="/contact">Contact</NavLink></li>
           </ul>
         </div>
         <div className='flex '>

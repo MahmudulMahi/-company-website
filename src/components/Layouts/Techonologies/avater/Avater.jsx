@@ -8,7 +8,7 @@ const Avater = ({ ava }) => {
      
           <div className="relative ">
             <img src={thumbnail} alt="" />
-            <div className='absolute  z-10 top-12 left-10 w-20 h-16 '>
+            <div className='absolute z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-20 h-16  '>
               <img src={image} />
 
             </div>

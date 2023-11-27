@@ -17,7 +17,7 @@ const Ourbordcard = ({pro}) => {
       </div>
       <div className="card-body absolute bottom-0 ml-4">
         <h2 className="card-title">{name}</h2>
-        <p>{designation}</p>
+        <p className='text-[#4169E1] font-semibold'>{designation}</p>
      
       </div>
     </div>

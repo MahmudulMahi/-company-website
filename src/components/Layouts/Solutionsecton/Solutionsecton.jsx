@@ -6,12 +6,12 @@ import solutionimg from '/asset/solution.jpg'
 const Solutionsecton = () => {
   return (
     <>
-      <div className='flex flex-col md:flex-col lg:flex-row mt-20 gap-20 mx-auto  justify-center items-center'>
+      <div className='flex flex-col md:flex-col lg:flex-row sm:mt-2 md:mt-20 gap-20 mx-auto  justify-center items-center'>
         <div className='relative flex-1'>
 
-          <img className="rounded-2xl p-5" style={{ width: '500px', height: '440px' }} src={bgrec1} alt="" />
-          <div className='absolute top-12 l -right-8 md:left-16 pr-6'>
-            <img className="rounded-2xl" style={{ width: '450px', height: '400px' }} src={solutionimg} alt="" />
+          <img className="rounded-2xl p-5" style={{ width: '500px', height: 'sm:350px md:440px' }} src={bgrec1} alt="" />
+          <div className='absolute top-12 l -right-8 left-9 md:left-16 pr-6'>
+            <img className="rounded-2xl" style={{ width: ' 450px', height: 'sm:350px md:400px' }} src={solutionimg} alt="" />
           </div>
 
         </div>
