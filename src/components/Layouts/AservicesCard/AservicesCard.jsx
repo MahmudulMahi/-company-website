@@ -24,7 +24,7 @@ const AservicesCard = ({ aservicescards }) => {
           <dialog id={modalId} className="modal">
             <div className="modal-box w-full  max-w-7xl p-2">
               <div className='flex flex-col-reverse md:flex-row  gap-8 items-center justify-center'>
-                <div className='flex-1'>
+                <div className='md:flex-1'>
                   <div>
                     <div className='text-3xl font-bold pb-5'>
                     <h2>{titlemodal}</h2>
@@ -36,8 +36,9 @@ const AservicesCard = ({ aservicescards }) => {
                     <p className="py-4">{description}</p>
                   </div>
                 </div>
-                <div className='flex-1 bg-no-repeat ' style={{ backgroundImage: "url('/asset/Rectangle 446.png')",
+                <div className='md:flex-1 w-11  bg-center md:bg-cover ' style={{ backgroundImage: "url('/asset/Rectangle 446.png')",
                 width:"100%",
+                hight:"50%",
                 maxwidth: "450px",
                 height: "450px",
                 Shadow:"none"
@@ -47,11 +48,11 @@ const AservicesCard = ({ aservicescards }) => {
 
                  <div className='flex mt-16 items-center justify-center space-x-5 '>
                  <div >
-                    <img className='w-[100px] h-[200px]  md:w-[300px] md:h-[300px] ' src={image} alt="" />
+                    <img className='w-[150px] h-[200px]  md:w-[300px] md:h-[300px] ' src={image} alt="" />
                   </div>
                   <div className='space-y-4' >
-                    <img className='w-[150px] h-[100px]' src={image1} alt="" />
-                    <img className='w-[150px] h-[100px]' src={image2} alt="" />
+                    <img className='w-[100px] h-[100px] md:w-[150px] md:h-[100px]' src={image1} alt="" />
+                    <img className='w-[100px] h-[100px] md:w-[150px] md:h-[100px]' src={image2} alt="" />
                   </div>
                  </div>
                   
