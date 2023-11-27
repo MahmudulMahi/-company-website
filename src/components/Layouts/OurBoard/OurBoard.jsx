@@ -14,10 +14,10 @@ const OurBoard = () => {
       .then(data => setprofail(data))
   }, [])
   return (
-    <div className="mt-14">
+    <div className="mt-14 ">
       <h2 className='text-[#4169E1] text-3xl text-center font-semibold mt-10 mb-12'><span className='shadow-2xl rounded-full p-0 md:p-3'>~ Our Board ~</span></h2>
-      <div className='flex justify-center '>
-        <div className="card card-compact w-96 md:w-80 lg:w-96 h-96  bg-base-100 shadow-xl bg-cover relative " style={{
+      <div className='grid grid-cols-1 justify-items-center '>
+        <div className="card card-compact w-96 md:w-80 lg:w-96 h-96 lg:h-96 bg-base-100 shadow-xl bg-cover relative " style={{
 
           backgroundImage: "url('/asset/profailpic.png')", backgroundSize: "320px",
           backgroundRepeat: "no-repeat",
@@ -26,7 +26,7 @@ const OurBoard = () => {
           <div>
             <figure><img className='w-52 h-56 rounded-full absolute top-8 left-[78px] ' src={firstprofail} alt="" /></figure>
           </div>
-          <div className="card-body absolute bottom-0">
+          <div className="card-body absolute bottom-0 ml-5">
             <h2 className="card-title">Ashraful Islam Spondon</h2>
             <p>Chief Executive Officer</p>
 
