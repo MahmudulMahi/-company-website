@@ -6,7 +6,7 @@ import icon3 from '/asset/emailicon.png'
 const Contact = () => {
   return (
 
-    <div className='mt-12  bg-no-repeat bg-bottom ' style={{ backgroundImage: `url('/asset/Rectangle 297.png')`, backgroundPosition: 'bottom', minHeight: '50vh',backgroundSize: '1300px 350px' }} >
+    <div className='mt-12  bg-no-repeat bg-bottom ' style={{ backgroundImage: `url('/asset/Rectangle 297.png')`, backgroundPosition: 'bottom', minHeight: '50vh', backgroundSize: '1300px 350px' }} >
 
       <div className='flex flex-col md:flex-col lg:flex-row justify-between z-20 md:p-7 p-0'>
         <div>
@@ -21,8 +21,8 @@ const Contact = () => {
               </div>
               <div >
                 <p className='font-semibold'>Office Location</p>
-                <p>Mirpur-14, Dhaka-1230, </p>
-                <p>Bangladesh</p>
+                <p> House-18, Road-5, Block-G Mirpur-1  </p>
+                <p> Dhaka-1216, Bangladesh</p>
               </div>
             </div>
             <div className='flex space-x-4 items-center'>
@@ -31,8 +31,8 @@ const Contact = () => {
               </div>
               <div>
                 <p className='font-semibold'>Phone</p>
-                <p>017XX-XXXXXXX</p>
-                <p>019XX-XXXXXXX</p>
+                <p>+8801618412326</p>
+                <p>+8801688008158</p>
               </div>
             </div>
             <div className='flex space-x-4 items-center'>
@@ -41,8 +41,8 @@ const Contact = () => {
               </div>
               <div>
                 <p className='md:font-semibold font-normal'>Email</p>
-                <p>sajibsazzadulalam@gmail.com </p>
-                <p>sajibsazzadulalam@gmail.com</p>
+                <p className='text-sm md:text-lg'>info@visionarytechsolution.com </p>
+                <p className='text-sm md:text-lg'>visionarytechsolution24@gmail.com</p>
               </div>
             </div>
           </div>

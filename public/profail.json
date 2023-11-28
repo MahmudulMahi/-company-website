@@ -1,48 +1,80 @@
 [
-  {
-      "id": 1,
-      "name": "Ashraful Islam Spondon",
-      "designation":"Chief Executive Officer",
-      "thumbnail":"https://i.ibb.co/Lx17RJF/19.png",
-      "image": "https://i.ibb.co/0s282jv/mahmudul.jpg"
-  },
-  {
-      "id": 2,
-      "name": "Ashraful Islam Spondon",
-      "designation":"Chief Executive Officer",
-      "thumbnail":"https://i.ibb.co/Lx17RJF/19.png",
-      "image": "https://i.ibb.co/0s282jv/mahmudul.jpg"
-  },
-  {
-      "id": 3,
-      "name": "Ashraful Islam Spondon",
-      "designation":"Chief Executive Officer",
-      "thumbnail":"https://i.ibb.co/Lx17RJF/19.png",
-      "image": "https://i.ibb.co/0s282jv/mahmudul.jpg"
-  },
-  {
-      "id": 4,
-      "name": "Ashraful Islam Spondon",
-      "designation":"Chief Executive Officer",
-      "thumbnail":"https://i.ibb.co/Lx17RJF/19.png",
-      "image": " https://i.ibb.co/0s282jv/mahmudul.jpg"
-  },
-  {
-      "id": 5,
-      "name": "Ashraful Islam Spondon",
-      "designation":"Chief Executive Officer",
-      "thumbnail":"https://i.ibb.co/Lx17RJF/19.png",
-      "image": "https://i.ibb.co/0s282jv/mahmudul.jpg"
-  },
-  {
-      "id": 6,
-      "name": "Ashraful Islam Spondon",
-      "designation":"Chief Executive Officer",
-      "thumbnail":"https://i.ibb.co/Lx17RJF/19.png",
-      "image": "https://i.ibb.co/0s282jv/mahmudul.jpg"
-  }
-
-
-
-
+    {
+        "id": 1,
+        "name": "Md Mahidul Islam",
+        "designation": "Chief Technology Officer",
+        "thumbnail": "https://i.ibb.co/Lx17RJF/19.png",
+        "image": "https://i.ibb.co/b6g4c65/Whats-App-Image-2023-11-28-at-7-58-28-PM.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Md Mahadi Hasan",
+        "designation": "chief operating officer",
+        "thumbnail": "https://i.ibb.co/Lx17RJF/19.png",
+        "image": "https://i.ibb.co/wLd0H1D/Whats-App-Image-2023-11-28-at-8-47-19-PM.jpg"
+    },
+    {
+        "id": 3,
+        "name": "MD. Sazzadul Alam Sajib",
+        "designation": "UI/UX Designer",
+        "thumbnail": "https://i.ibb.co/Lx17RJF/19.png",
+        "image": "https://i.ibb.co/7Krn44T/Formal-Image.jpg"
+        
+    },
+    {
+        "id": 4,
+        "name": "Md Salauddin Ayub",
+        "designation": " Front-End Developer",
+        "thumbnail": "https://i.ibb.co/Lx17RJF/19.png",
+        "image": " https://i.ibb.co/RzV9D6M/ayub.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Simanta Kumar Roy",
+        "designation": "Back-End Developer",
+        "thumbnail": "https://i.ibb.co/Lx17RJF/19.png",
+        "image": "https://i.ibb.co/0nBh9Kn/Simanta.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Abdullah Al Mamun",
+        "designation": "Back-End Developer",
+        "thumbnail": "https://i.ibb.co/Lx17RJF/19.png",
+        "image": "https://i.ibb.co/71vYqk7/IMG-6511.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Farjana Pinki",
+        "designation": "Software Tester",
+        "thumbnail": "https://i.ibb.co/Lx17RJF/19.png",
+        "image": "https://i.ibb.co/c8r1V4B/Whats-App-Image-2023-11-28-at-8-23-16-PM.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Md Tohidul Islma",
+        "designation": "UI/UX Designer",
+        "thumbnail": "https://i.ibb.co/GRnPp7K/mahmudul.jpg",
+        "image": "https://i.ibb.co/WxK3Ghs/MY-PIC.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Md Mahmudul Islam",
+        "designation": "Front-End Developer",
+        "thumbnail": "https://i.ibb.co/GRnPp7K/mahmudul.jpg",
+        "image": "https://i.ibb.co/GRnPp7K/mahmudul.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Rahima Runa",
+        "designation": "Software Tester",
+        "thumbnail": "https://i.ibb.co/GRnPp7K/mahmudul.jpg",
+        "image": "https://i.ibb.co/SXyJCgS/Whats-App-Image-2023-11-28-at-8-14-55-PM.jpg"
+    },
+    {
+        "id": 11,
+        "name": "R Rafiou Khan Eshan",
+        "designation": "Backend Developer",
+        "thumbnail": "https://i.ibb.co/hHzfC68/Whats-App-Image-2023-11-28-at-22-46-59-854e49e6.jpg",
+        "image": "https://i.ibb.co/hHzfC68/Whats-App-Image-2023-11-28-at-22-46-59-854e49e6.jpg"
+    }
 ]

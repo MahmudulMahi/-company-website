@@ -19,7 +19,7 @@ const AboutBanner = () => {
         </div>
       
       </div>
-      <img className="hidden md:block " src={underimg} alt="" />
+      <img className="hidden md:block w-full h-1  " src={underimg} alt="" />
     </>
   );
 };

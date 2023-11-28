@@ -17,7 +17,7 @@ const ProudJourney = () => {
         <div className="card  bg-base-100 shadow-xl">
           <div className="card-body items-center text-center px-12">
             <img src={proudicon1} alt="" />
-            <p className='text-3xl text-[#4169E1] font-bold'>2+</p>
+            <p className='text-3xl text-[#4169E1] font-bold'>1+</p>
             <p className='text-[24px]'>Years of  <br/>
             Experience</p>
 
@@ -28,9 +28,9 @@ const ProudJourney = () => {
         <div className="card  bg-base-100 shadow-xl">
           <div className="card-body items-center text-center px-8">
             <img src={proudicon2} alt="" />
-            <p className='text-3xl text-[#4169E1] font-bold'>2.5k+</p>
+            <p className='text-3xl text-[#4169E1] font-bold'>20+</p>
             <p className='text-[24px]'>Of customers <br/>
-            worldwide</p>
+            Worldwide</p>
 
           </div>
         </div>
@@ -39,7 +39,7 @@ const ProudJourney = () => {
         <div className="card    bg-base-100 shadow-xl">
           <div className="card-body items-center text-center px-12">
             <img src={proudicon3} alt="" />
-            <p className='text-3xl text-[#4169E1] font-bold'>2.5k+</p>
+            <p className='text-3xl text-[#4169E1] font-bold'>25+</p>
             <p className='text-[24px]'>Projects <br/>
             Delivered</p>
 
@@ -52,7 +52,7 @@ const ProudJourney = () => {
             <img src={proudicon4} alt="" />
             <p className='text-3xl text-[#4169E1] font-bold'>13</p>
             <p className='text-[24px]'>Time zone <br/>
-            covered</p>
+            Covered</p>
 
           </div>
         </div>
@@ -61,9 +61,9 @@ const ProudJourney = () => {
         <div className="card   bg-base-100 shadow-xl">
           <div className="card-body items-center text-center px-12">
             <img src={proudicon5} alt="" />
-            <p className='text-3xl text-[#4169E1] font-bold'>4.9/5</p>
+            <p className='text-3xl text-[#4169E1] font-bold'>5/5</p>
             <p className='text-[24px]'>Customer <br/>
-              rating</p>
+              Rating</p>
           </div>
         </div>
         {/* ----------- */}

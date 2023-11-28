@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import Ourbordcard from './Ourbordcard/Ourbordcard';
 
 import firstprofail from './../../../../public/asset/mahmudul.jpg'
+import profailasraful from './../../../../public/asset/IMG_4960-A.jpg'
 
 const OurBoard = () => {
 
@@ -24,7 +25,7 @@ const OurBoard = () => {
           backgroundPosition: ""
         }}>
           <div>
-            <figure><img className='w-52 h-56 rounded-full absolute top-8 left-[78px] ' src={firstprofail} alt="" /></figure>
+            <figure><img className='w-[220px] h-[215px] rounded-full absolute top-10 left-[72px] ' src={profailasraful} alt="" /></figure>
           </div>
           <div className="card-body absolute bottom-0 ml-5">
             <h2 className="card-title">Ashraful Islam Spondon</h2>
