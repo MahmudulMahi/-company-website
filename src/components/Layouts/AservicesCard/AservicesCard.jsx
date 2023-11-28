@@ -22,7 +22,7 @@ const AservicesCard = ({ aservicescards }) => {
           {/* <button onClick={toggleDetails} className="btn btn-primary  ">Learn more </button> */}
           <button className="p-5 flex items-center gap-2 text-[#008000]" onClick={() => document.getElementById(modalId).showModal()}>learn more <FaArrowRight /></button>
           <dialog id={modalId} className="modal">
-            <div className="modal-box w-full p-2 md:p-16 max-w-7xl ">
+            <div className="modal-box w-full p-4 md:p-16 max-w-7xl ">
               <div className='flex flex-col-reverse md:flex-row  gap-8 items-center justify-center'>
                 <div className='md:flex-1'>
                   <div>

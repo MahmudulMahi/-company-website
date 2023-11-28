@@ -9,7 +9,7 @@
     {
         "id": 2,
         "name": "Md Mahadi Hasan",
-        "designation": "chief operating officer",
+        "designation": "Chief Operating Officer",
         "thumbnail": "https://i.ibb.co/Lx17RJF/19.png",
         "image": "https://i.ibb.co/wLd0H1D/Whats-App-Image-2023-11-28-at-8-47-19-PM.jpg"
     },
@@ -28,13 +28,7 @@
         "thumbnail": "https://i.ibb.co/Lx17RJF/19.png",
         "image": " https://i.ibb.co/RzV9D6M/ayub.jpg"
     },
-    {
-        "id": 5,
-        "name": "Simanta Kumar Roy",
-        "designation": "Back-End Developer",
-        "thumbnail": "https://i.ibb.co/Lx17RJF/19.png",
-        "image": "https://i.ibb.co/0nBh9Kn/Simanta.jpg"
-    },
+
     {
         "id": 6,
         "name": "Abdullah Al Mamun",
@@ -42,6 +36,14 @@
         "thumbnail": "https://i.ibb.co/Lx17RJF/19.png",
         "image": "https://i.ibb.co/71vYqk7/IMG-6511.jpg"
     },
+    {
+        "id": 5,
+        "name": "Simanta Kumar Roy",
+        "designation": "Back-End Developer",
+        "thumbnail": "https://i.ibb.co/Lx17RJF/19.png",
+        "image": "https://i.ibb.co/0nBh9Kn/Simanta.jpg"
+    },
+  
     {
         "id": 7,
         "name": "Farjana Pinki",

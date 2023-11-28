@@ -28,7 +28,7 @@ const OurBoard = () => {
             <figure><img className='w-[220px] h-[215px] rounded-full absolute top-10 left-[72px] ' src={profailasraful} alt="" /></figure>
           </div>
           <div className="card-body absolute bottom-0 ml-5">
-            <h2 className="card-title">Ashraful Islam Spondon</h2>
+            <h2 className="card-title">Md Asraful Islam Spondon</h2>
             <p className='text-[#4169E1] font-bold'>Chief Executive Officer</p>
 
           </div>
