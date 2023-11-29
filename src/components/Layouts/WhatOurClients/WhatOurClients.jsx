@@ -1,6 +1,10 @@
 import profailimg from '/asset/joe.jpeg'
+import profailimg2 from '/asset/WhatsApp Image 2023-11-28 at 6.53.16 PM.jpeg'
+import profailimg3 from '/asset/WhatsApp Image 2023-11-28 at 6.53.49 PM.jpeg'
+import profailimg4 from '/asset/johny.jpeg'
+import profailimg5 from '/asset/WhatsApp Image 2023-11-28 at 6.56.02 PM (1).jpeg'
 import coma1 from '/asset/icon-park-outline_quote.png'
-import coma2 from '/asset/coma2.png'
+import coma2 from '/asset/coma2-removebg-preview.png'
 import icon1 from '/asset/Group 527.png'
 import { FaRegCopy } from "react-icons/fa";
 const WhatOurClients = () => {
@@ -19,8 +23,8 @@ const WhatOurClients = () => {
               <img className='w-[30px] h-[30px]' src={coma1} alt="" />
               <p className='text-xl'>VTS expertise and professionalism truly impressed me. His attention to detail and ability to grasp our requirements quickly resulted in some good progress and a quick turnaround time. I also appreciated his commitment to excellence and willngness to go the extra mile which was evident throughout the project“</p>
             </div>
-            <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 w-" />
-            <div className='flex gap-5'>
+            <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 " />
+            <div className='flex  gap-5'>
               <div>
                 <img src={icon1} alt="" />
               </div>
@@ -29,7 +33,7 @@ const WhatOurClients = () => {
                 <p className='text-[#4169E1] mt-3'>Founder
                   The People House</p>
               </div>
-              <div className='ml-4 md:ml-64'>
+              <div className='ml-3'>
                 <h2>Fiver</h2>
                 <div className="rating mt-3">
                   <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" />
@@ -41,7 +45,7 @@ const WhatOurClients = () => {
               </div>
             </div>
           </div>
-          <div className='pr-12 relative mt-6  '>
+          <div className='pr-12 relative  '>
             <img src={profailimg} className="w-[220px] rounded-full" />
             <div className='absolute top-2 right-10 md:right-80 lg:right-10 '>
               <img className='w-8 md:w-14' src={coma2} alt="" />
@@ -55,13 +59,13 @@ const WhatOurClients = () => {
               <img className='w-[30px] h-[30px]' src={coma1} alt="" />
               <p className='text-xl'>This company is amazing . He takes full responsibility for the project and has the ability to push the project across the finish line. I will definitely recommend him for your python/Django project. With very little instruction he can get the work done.</p>
             </div>
-            <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 w-" />
-            <div className='flex gap-5'>
+            <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 " />
+            <div className='flex  gap-5'>
               <div>
                 <img src={icon1} alt="" />
               </div>
               <div>
-                <h2>Johny Martin</h2>
+                <h2>Steve Jonas</h2>
                 <p className='text-[#4169E1] mt-3'>Founder and CEO,  Realvision Media</p>
               </div>
               <div className='text-center '>
@@ -76,8 +80,8 @@ const WhatOurClients = () => {
               </div>
             </div>
           </div>
-          <div className='pr-12 relative '>
-            <img src={profailimg} className="w-[220px]" />
+          <div className='pr-12 relative  '>
+            <img src={profailimg2} className="w-[220px] rounded-full" />
             <div className='absolute top-2 right-10 md:right-80 lg:right-10'>
               <img className='w-8 md:w-14' src={coma2} alt="" />
             </div>
@@ -98,10 +102,10 @@ const WhatOurClients = () => {
                 <img src={icon1} alt="" />
               </div>
               <div>
-                <h2>MD: Sazzadul Alam Sajib</h2>
-                <p className='text-[#4169E1] mt-3'>Figma Designer</p>
+                <h2>Santino</h2>
+                <p className='text-[#4169E1] mt-3'>Founder and CEO</p>
               </div>
-              <div className='ml-4 md:ml-64'>
+              <div className='ml-3'>
                 <h2>Fiver</h2>
                 <div className="rating mt-3">
                   <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" />
@@ -114,7 +118,7 @@ const WhatOurClients = () => {
             </div>
           </div>
           <div className='pr-12 relative '>
-            <img src={profailimg} className="w-[220px]" />
+            <img src={profailimg3} className="w-[220px] rounded-full" />
             <div className='absolute top-2 right-10 md:right-80 lg:right-10'>
               <img className='w-8 md:w-14' src={coma2} alt="" />
             </div>
@@ -126,7 +130,7 @@ const WhatOurClients = () => {
             <div className='flex '>
               <img className='w-[30px] h-[30px]' src={coma1} alt="" />
               <p className='text-xl'>VTS did an excellent job building a custom tracking page for our customers. He used an API to display real time tracking update for our customers.Excellent work. The needed features were detailed .but VTS took charge of the project and got it to the finish line . Great work. thank you !
-</p>
+              </p>
             </div>
             <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 w-" />
             <div className='flex gap-5'>
@@ -134,10 +138,10 @@ const WhatOurClients = () => {
                 <img src={icon1} alt="" />
               </div>
               <div>
-                <h2>MD: Sazzadul Alam Sajib</h2>
-                <p className='text-[#4169E1] mt-3'>Figma Designer</p>
+                <h2>Johny Martin</h2>
+                <p className='text-[#4169E1] mt-3'>Founder and CEO,  Realvision Media</p>
               </div>
-              <div className='ml-4 md:ml-64'>
+              <div className='ml-3'>
                 <h2>Fiver</h2>
                 <div className="rating mt-3">
                   <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" />
@@ -150,7 +154,7 @@ const WhatOurClients = () => {
             </div>
           </div>
           <div className='pr-12 relative '>
-            <img src={profailimg} className="w-[220px]" />
+            <img src={profailimg4} className="w-[220px] rounded-full" />
             <div className='absolute top-2 right-10 md:right-80 lg:right-10 '>
               <img className='w-8 md:w-14' src={coma2} alt="" />
             </div>
@@ -173,7 +177,7 @@ const WhatOurClients = () => {
                 <p className='text-[#4169E1] mt-3'>Founder
                   The People House</p>
               </div>
-              <div className='ml-4 md:ml-64'>
+              <div className='ml-3'>
                 <h2>Fiver</h2>
                 <div className="rating mt-3">
                   <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" />
@@ -185,8 +189,8 @@ const WhatOurClients = () => {
               </div>
             </div>
           </div>
-          <div className='pr-12 relative mt-6  '>
-            <img src={profailimg} className="w-[220px] rounded-full" />
+          <div className='pr-12 relative  '>
+            <img src={profailimg5} className="w-[220px] rounded-full" />
             <div className='absolute top-2 right-10 md:right-80 lg:right-10 '>
               <img className='w-8 md:w-14' src={coma2} alt="" />
             </div>
@@ -209,7 +213,7 @@ const WhatOurClients = () => {
                 <p className='text-[#4169E1] mt-3'>Founder
                   The People House</p>
               </div>
-              <div className='ml-4 md:ml-64'>
+              <div className='ml-3'>
                 <h2>Fiver</h2>
                 <div className="rating mt-3">
                   <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" />
@@ -221,7 +225,7 @@ const WhatOurClients = () => {
               </div>
             </div>
           </div>
-          <div className='pr-12 relative mt-6  '>
+          <div className='pr-12 relative   '>
             <img src={profailimg} className="w-[220px] rounded-full" />
             <div className='absolute top-2 right-10 md:right-80 lg:right-10 '>
               <img className='w-8 md:w-14' src={coma2} alt="" />

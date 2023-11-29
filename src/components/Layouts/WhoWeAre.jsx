@@ -36,8 +36,8 @@ const WhoWeAre = () => {
           <img  src={iconAbout1} alt="" />
           </figure>
           <div className="card-body pt-5 items-center text-center">
-          <h2 className='text-[#4169E1] font-medium'>Out Vision</h2>
-            <p>Our vision is focused to be a leader company, model at solutions and Information Technology development, solid, profitable and always evolving.</p>
+          <h2 className='text-[#4169E1] font-medium'>Our Vision</h2>
+            <p>Empowering the Future through Innovative Technology Solutions. At Visionary Tech Solution, we envision a world where cutting-edge software not only meets the evolving needs of businesses but also propels them towards sustained growth and success. Our vision is to be at the forefront of technological advancements, serving as a catalyst for companies to thrive in the dynamic landscape of the future.</p>
           </div>
         </div>
         {/* ---------- */}
@@ -48,7 +48,7 @@ const WhoWeAre = () => {
           </figure>
           <div className="card-body pt-5 items-center text-center">
           <h2 className='text-[#4169E1] font-medium'>Our Mission</h2>
-            <p>Our Mission is based on the productive growth of our customers, delivering tools, knowledge and Information Technology to satisfy their requirements promoting a harmonious development for our human talent.</p>
+            <p>Our mission at Visionary Tech Solution is to design and deliver transformative software solutions that align seamlessly with the strategic goals of our clients. We are dedicated to creating intuitive, efficient, and scalable technologies that not only meet current requirements but also anticipate future trends.</p>
           </div>
         </div>
         {/* ---------- */}
@@ -59,7 +59,7 @@ const WhoWeAre = () => {
           </figure>
           <div className="card-body pt-5 items-center text-center">
           <h2 className='text-[#4169E1] font-medium'>Our Values</h2>
-            <p>Our business values are based on a clear services principle, quality, honesty and commitment. Our corporative principles are closely related to the continuous improvement, competitiveness, teamwork, human talent commitment and the democratic participation of our human resources.</p>
+            <p>Driven by a commitment to innovation, client-centricity, integrity, collaboration, adaptability, and excellence, we embody a mission to redefine industry standards, prioritize client success, uphold ethical practices, amplify collective expertise through collaboration, proactively adapt to change, and consistently strive for excellence in every aspect of our work. </p>
           </div>
         </div>
         {/* ---------- */}
