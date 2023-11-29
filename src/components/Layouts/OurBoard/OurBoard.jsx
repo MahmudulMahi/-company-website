@@ -16,7 +16,7 @@ const OurBoard = () => {
   }, [])
   return (
     <div className="mt-14 ">
-      <h2 className='text-[#4169E1] text-3xl text-center font-semibold mt-10 mb-12'><span className='shadow-2xl rounded-full p-0 md:p-3'>~ Our Board ~</span></h2>
+      <h2 className='text-[#4169E1] text-3xl text-center font-semibold mt-10 mb-12'><span className='shadow-2xl rounded-full p-0 md:p-3'>~ Our Team ~</span></h2>
       <div className='grid grid-cols-1 justify-items-center '>
         <div className="card card-compact w-96 md:w-80 lg:w-96 h-96 lg:h-96 bg-base-100 shadow-xl bg-cover relative " style={{
 

@@ -38,7 +38,7 @@ const Header = () => {
             
             <NavLink to="/">Home</NavLink></li>
             <li className={` ${location.pathname === '/services' ? 'border-b-4 border-blue-500' : ''}`} >
-            <NavLink to="/services">services & Project</NavLink></li>
+            <NavLink to="/services">Services & Project</NavLink></li>
             {/* <li>
               <a to="services">services</a>
               <ul className="p-2">
