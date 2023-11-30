@@ -21,7 +21,7 @@ const Solutionsecton = () => {
           <p className='mt-8 font-medium text-xl md:text-3xl md:text-center'> <span className='text-[#4169E1]'>VTS</span> Fusing artistry with technology   for innovative software solutions. </p>
           <div className="relative mt-8">
             <img className='w-[620px] h-[280px] hidden md:block  ' src={bgimg} alt="" />
-            <div className=" absolute md:w-[450px] top-1 md:left-[86px] ">
+            <div className=" absolute md:w-[450px] top-1 md:left-[78px] ">
               <span className='block mb-4 '>
               Visionary Tech Solutions is a dynamic and forward-thinking company specializing in Software Development and Consulting Services. We are committed to driving innovation, solving complex challenges, and delivering cutting-edge solutions that empower businesses to thrive in the digital age.
               </span>

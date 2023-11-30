@@ -2,7 +2,7 @@
 import { NavLink, useLocation } from 'react-router-dom';
 import { TbWorld } from "react-icons/tb";
 import { useEffect, useState } from 'react';
-import logo from '/public/asset/Group 527.png'
+import logo from '/public/asset/logovts-removebg.png'
 
 const Header = () => {
 
@@ -57,9 +57,9 @@ const Header = () => {
         </div>
         <div className='flex '>
           <div>
-          <img className='ml-1 lg:ml-10 mt-3 md:mt-0 hidden md:block' src={logo} alt="" />
+          <img className='ml-1 w-12 lg:ml-10 mt-3 md:mt-0 hidden md:block' src={logo} alt="" />
           </div>
-          <div className='ml-1 lg:ml-5'>
+          <div className=' lg:ml-5'>
             <h2 className='text-xl'>Visionary</h2>
             <p className='text-xs mt-1'>Tech Solution</p>
           </div>

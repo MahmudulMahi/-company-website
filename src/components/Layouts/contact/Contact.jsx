@@ -35,7 +35,7 @@ const Contact = () => {
                 <p>+8801688008158</p>
               </div>
             </div>
-            <div className='flex space-x-4 items-center'>
+            <div className='flex  space-x-4 items-center'>
               <div className='bg-white p-4 rounded-xl border'>
                 <img className='w-7 md:w-12 ' src={icon3} alt="" />
               </div>

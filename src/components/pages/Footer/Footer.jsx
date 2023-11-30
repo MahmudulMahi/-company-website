@@ -1,4 +1,4 @@
-import icon1 from '/asset/Group 527.png'
+import icon1 from '/asset/logovts-removebg.png'
 import socalicon1 from '/asset/logos_facebook-removebg-preview.png'
 import socalicon2 from '/asset/skill-icons_linkedin.png'
 import socalicon3 from '/asset/Instragram Icon.png'
