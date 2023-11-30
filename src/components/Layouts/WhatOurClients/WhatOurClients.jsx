@@ -1,7 +1,7 @@
 import profailimg from '/asset/joe.jpeg'
 import profailimg2 from '/asset/SharRaju.jpeg'
 import profailimg3 from '/asset/WhatsApp Image 2023-11-28 at 6.53.49 PM.jpeg'
-import profailimg4 from '/asset/WhatsApp Image 2023-11-28 at 6.56.02 PM (1).jpeg'
+import profailimg4 from '/asset/johny.jpeg'
 import profailimg5 from '/asset/WhatsApp Image 2023-11-28 at 6.56.02 PM (1).jpeg'
 import coma1 from '/asset/icon-park-outline_quote.png'
 import coma2 from '/asset/coma2-removebg-preview.png'
