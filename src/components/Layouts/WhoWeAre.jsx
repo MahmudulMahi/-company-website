@@ -39,7 +39,7 @@ const WhoWeAre = () => {
           </figure>
           <div className="card-body pt-5 items-center text-center">
           <h2 className='text-[#4169E1] font-medium'>Our Vision</h2>
-            <p>Empowering the Future through Innovative Technology Solutions. At Visionary Tech Solution, we envision a world where cutting-edge software not only meets the evolving needs of businesses but also propels them towards sustained growth and success. Our vision is to be at the forefront of technological advancements, serving as a catalyst for companies to thrive in the dynamic landscape of the future.</p>
+            <p> At Visionary Tech Solution, we envision a world where cutting-edge software not only meets the evolving needs of businesses but also propels them towards sustained growth and success. Our vision is to be at the forefront of technological advancements, serving as a catalyst for companies to thrive in the dynamic landscape of the future.</p>
           </div>
         </div>
         {/* ---------- */}
@@ -61,7 +61,7 @@ const WhoWeAre = () => {
           </figure>
           <div className="card-body pt-5 items-center text-center">
           <h2 className='text-[#4169E1] font-medium'>Our Values</h2>
-            <p>Driven by a commitment to innovation, client-centricity, integrity, collaboration, adaptability, and excellence, we embody a mission to redefine industry standards, prioritize client success, uphold ethical practices, amplify collective expertise through collaboration, proactively adapt to change, and consistently strive for excellence in every aspect of our work. </p>
+            <p>Driven by a commitment to innovation, client-centricity, integrity, collaboration, we embody a mission to redefine industry standards, prioritize client success, uphold ethical practices, amplify collective expertise through collaboration, proactively adapt to change, and consistently strive for excellence in every aspect of our work. </p>
           </div>
         </div>
         {/* ---------- */}
