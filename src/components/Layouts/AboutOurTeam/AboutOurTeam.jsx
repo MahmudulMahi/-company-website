@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom';
 import teamimg from '../../../../public/asset/team.jpeg'
 
 const AboutOurTeam = () => {
@@ -18,10 +19,15 @@ const AboutOurTeam = () => {
         </span>
 
         <span>
-          We have a wide experience at technical level, a young professional team, with a solid academic formation and advances technical skills who let us deliver high quality solutions to any kind of company
+
         </span>
         <div className='mt-7'>
-          <button className="btn  rounded-3xl border-[#4169E1]"><span className='text-[#4169E1]'>Meet our team</span></button>
+          <Link to="/team">
+            <button className="btn rounded-3xl border-[#4169E1]">
+              <span className='text-[#4169E1]'>Meet our team</span>
+            </button>
+          </Link>
+
         </div>
       </div>
 

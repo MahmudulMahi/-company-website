@@ -60,17 +60,17 @@ const Footer = () => {
               <img className='w-4 h-4 mt-2' src={contacticon1} alt="" />
             </div>
             <div>
-              <p>+8801234-567890</p>
-              <p>+8801618-4123264</p>
+              <p>+8801618412326</p>
+              <p>+8801688008158</p>
             </div>
           </div>
           <div className='flex gap-2 mt-4'>
             <div>
               <img className='w-4 h-4 mt-2' src={contacticon2} alt="" />
             </div>
-            <div>
-              <p>info@visionary.com</p>
-              <p>vts@gmail.com</p>
+            <div className='text-xs md:text-sm' >
+              <p>info@visionarytechsolution.com</p>
+              <p>visionarytechsolution24@gmail.com</p>
             </div>
           </div>
           <div className='flex gap-2 mt-4'>
@@ -78,8 +78,8 @@ const Footer = () => {
               <img className='w-4 h-4 mt-2' src={contacticon3} alt="" />
             </div>
             <div>
-              <p>House no - 123, Dhaka,</p>
-              <p>Bangladesh</p>
+              <p>House-18, Road-5, Block-G Mirpur-1</p>
+              <p>Dhaka-1216, Bangladesh</p>
             </div>
           </div>
         </nav>

@@ -35,14 +35,14 @@ const Contact = () => {
                 <p>+8801688008158</p>
               </div>
             </div>
-            <div className='flex  space-x-4 items-center'>
+            <div className='flex  space-x-4 '>
               <div className='bg-white p-4 rounded-xl border'>
                 <img className='w-7 md:w-12 ' src={icon3} alt="" />
               </div>
               <div>
                 <p className='md:font-semibold font-normal'>Email</p>
-                <p className='text-sm md:text-lg'>info@visionarytechsolution.com </p>
-                <p className='text-sm md:text-lg'>visionarytechsolution24@gmail.com</p>
+                <p className='text-[13px] md:text-lg'>info@visionarytechsolution.com </p>
+                <p className='text-[13px] md:text-lg '>visionarytechsolution24@gmail.com</p>
               </div>
             </div>
           </div>
@@ -85,4 +85,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
