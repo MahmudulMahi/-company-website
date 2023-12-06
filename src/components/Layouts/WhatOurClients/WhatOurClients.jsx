@@ -33,7 +33,7 @@ const WhatOurClients = () => {
                 <p className='text-[#4169E1] mt-1 md:mt-3 lg:mt-3 text-sm md:text-base lg:text-base'>Founder<br />The People House</p>
               </div>
               <div className='ml-3'>
-                <h2>Fiver</h2>
+                <h2>Rating</h2>
                 <div className="rating mt-1 md:mt-3 lg:mt-3">
                   <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" />
                   <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" />
@@ -69,7 +69,7 @@ const WhatOurClients = () => {
                 <p className='text-[#4169E1] mt-1 md:mt-3 lg:mt-3 text-sm md:text-base lg:text-base'> DM Auto Solution</p>
               </div>
               <div className='ml-3'>
-                <h2>Fiver</h2>
+                <h2>Rating</h2>
                 <div className="rating mt-1 md:mt-3 lg:mt-3">
                   <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" />
                   <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" />
@@ -105,7 +105,7 @@ const WhatOurClients = () => {
                 <p className='text-[#4169E1] mt-1 md:mt-3 lg:mt-3 text-sm md:text-base lg:text-base'>Founder<br />Valley Hatchery Corporation</p>
               </div>
               <div className='ml-3'>
-                <h2>Fiver</h2>
+                <h2>Rating</h2>
                 <div className="rating mt-1 md:mt-3 lg:mt-3">
                   <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" />
                   <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" />
@@ -141,7 +141,7 @@ const WhatOurClients = () => {
                 <p className='text-[#4169E1] mt-1 md:mt-3 lg:mt-3 text-sm md:text-base lg:text-base'>Founder and CEO,<br />Realvision Media</p>
               </div>
               <div className='ml-3'>
-                <h2>Fiver</h2>
+                <h2 className='font-bold'>Rating</h2>
                 <div className="rating mt-1 md:mt-3 lg:mt-3">
                   <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" />
                   <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" />
@@ -177,7 +177,7 @@ const WhatOurClients = () => {
                 <p className='text-[#4169E1] mt-1 md:mt-3 lg:mt-3 text-sm md:text-base lg:text-base'>Founder<br />Findy Lead Corporation</p>
               </div>
               <div className='ml-3'>
-                <h2>Fiver</h2>
+                <h2>Rating</h2>
                 <div className="rating mt-1 md:mt-3 lg:mt-3">
                   <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" />
                   <input type="radio" name="rating-2" className="mask mask-star-2 bg-blue-800" />
@@ -206,9 +206,9 @@ const WhatOurClients = () => {
         <a href="#item4" className="btn btn-xs">4</a>
         <a href="#item5" className="btn btn-xs">5</a>
       </div>
-      <div className='flex justify-center items-center mt-7 md:mt-3'>
+      {/* <div className='flex justify-center items-center mt-7 md:mt-3'>
         <button className="btn  bg-slate-100 sm:btn-sm md:btn-md lg:btn-lg text-[#4169E1] ">read More Reviews <FaRegCopy /></button>
-      </div>
+      </div> */}
     </div>
 
   );

@@ -1,5 +1,5 @@
 
-import { NavLink, useLocation } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 import { TbWorld } from "react-icons/tb";
 import { useEffect, useState } from 'react';
 import logo from '/public/asset/logovts-removebg.png'
@@ -55,15 +55,21 @@ const Header = () => {
             <NavLink to="/contact">Contact</NavLink></li>
           </ul>
         </div>
+        <Link to='/'>
         <div className='flex '>
+       
           <div>
+            
           <img className='ml-1 w-12 lg:ml-10 mt-3 md:mt-0 hidden md:block' src={logo} alt="" />
+          
           </div>
           <div className=' lg:ml-5'>
             <h2 className='text-xl'>Visionary</h2>
             <p className='text-xs mt-1'>Tech Solution</p>
           </div>
+         
         </div>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex ">
         <ul className=" gap-10 menu-horizontal px-1 ">

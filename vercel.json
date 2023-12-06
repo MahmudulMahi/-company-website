@@ -1,0 +1,26 @@
+{
+  "routes":[
+    {
+      "sec":"/",
+      "dest":"/"
+      
+    },
+    {
+      "src":"/about",
+      "dest":"/"
+    },
+    {
+      "src":"/team",
+      "dest":"/"
+    },
+    {
+      "src":"/services",
+      "dest":"/"
+      
+    },
+    {
+      "src":"/contact",
+      "dest":"/"
+    }
+  ]
+}
