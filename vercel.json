@@ -1,26 +1,26 @@
-{
-  "routes":[
-    {
-      "sec":"/",
-      "dest":"/"
+// {
+//   "routes":[
+//     {
+//       "sec":"/",
+//       "dest":"/"
       
-    },
-    {
-      "src":"/about",
-      "dest":"/"
-    },
-    {
-      "src":"/team",
-      "dest":"/"
-    },
-    {
-      "src":"/services",
-      "dest":"/"
+//     },
+//     {
+//       "src":"/about",
+//       "dest":"/"
+//     },
+//     {
+//       "src":"/team",
+//       "dest":"/"
+//     },
+//     {
+//       "src":"/services",
+//       "dest":"/"
       
-    },
-    {
-      "src":"/contact",
-      "dest":"/"
-    }
-  ]
-}
+//     },
+//     {
+//       "src":"/contact",
+//       "dest":"/"
+//     }
+//   ]
+// }
