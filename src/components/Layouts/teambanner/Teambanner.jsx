@@ -3,7 +3,7 @@ import underimg from "/public/asset/Rectangle 344.png"
 const Teambanner = () => {
   return (
     <>
-    <div className="hero h-[300px] md:h-[500px] mt-3 " 
+    <div className="hero h-[350px] md:h-[500px] mt-3 " 
     
     style={{ backgroundImage: "url('/asset/teammanagement.png')" 
     

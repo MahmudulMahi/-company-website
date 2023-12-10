@@ -4,7 +4,7 @@ import underimg from "/asset/Rectangle 344.png"
 const AboutBanner = () => {
   return (
     <>
-      <div className="hero h-[300px] md:h-[500px] mt-3" 
+      <div className="hero h-[350px] md:h-[500px] mt-3" 
       
       style={{ backgroundImage: "url('/asset/Rectangle 387.png')" 
       

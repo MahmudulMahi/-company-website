@@ -18,14 +18,14 @@ const OurBoard = () => {
     <div className="mt-14 ">
       <h2 className='text-[#4169E1] text-3xl text-center font-semibold mt-10 mb-12'><span className='shadow-2xl rounded-full p-0 md:p-3'>~ Our Team ~</span></h2>
       <div className='grid grid-cols-1 justify-items-center '>
-        <div className="card card-compact w-96 md:w-80 lg:w-96 h-96 lg:h-96 bg-base-100 shadow-xl bg-cover relative " style={{
+        <div className="card card-compact w-96 md:w-80 lg:w-96 h-96 lg:h-96 bg-base-100 shadow-xl bg-cover relative  " style={{
 
           backgroundImage: "url('/asset/profailpic.png')", backgroundSize: "320px",
           backgroundRepeat: "no-repeat",
           backgroundPosition: ""
         }}>
           <div>
-            <figure><img className='w-[220px] h-[215px] rounded-full absolute top-10 left-[72px] ' src={profailasraful} alt="" /></figure>
+            <figure><img className='w-[240px] h-[240px] rounded-full absolute top-[26px] left-[60px] border-blue-600 border-8 ' src={profailasraful} alt="" /></figure>
           </div>
           <div className="card-body absolute bottom-0 ml-5">
             <h2 className="card-title">Md Asraful Islam Spondon</h2>
