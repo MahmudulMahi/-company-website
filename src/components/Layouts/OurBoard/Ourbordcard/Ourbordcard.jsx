@@ -13,7 +13,7 @@ const Ourbordcard = ({pro}) => {
     backgroundPosition: ""
   }}>
       <div>
-      <figure><img className='w-[240px] h-[240px] rounded-full absolute top-[26px] left-[60px] border-blue-600 border-8' src={image} alt="" /></figure>
+      <figure><img className='w-[240px] h-[240px] rounded-full absolute top-[26px] left-[60px] border-blue-600 border-[6px]' src={image} alt="" /></figure>
       </div>
       <div className="card-body absolute bottom-0 ml-4">
         <h2 className="card-title">{name}</h2>

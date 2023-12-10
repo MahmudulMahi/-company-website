@@ -25,7 +25,7 @@ const OurBoard = () => {
           backgroundPosition: ""
         }}>
           <div>
-            <figure><img className='w-[240px] h-[240px] rounded-full absolute top-[26px] left-[60px] border-blue-600 border-8 ' src={profailasraful} alt="" /></figure>
+            <figure><img className='w-[240px] h-[240px] rounded-full absolute top-[26px] left-[60px] border-blue-600 border-[6px] ' src={profailasraful} alt="" /></figure>
           </div>
           <div className="card-body absolute bottom-0 ml-5">
             <h2 className="card-title">Md Asraful Islam Spondon</h2>
