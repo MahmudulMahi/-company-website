@@ -7,11 +7,11 @@
       },
       {
         "src":"/about",
-        "dest":"/"
+        "dest":"/about"
       },
       {
         "src":"/team",
-        "dest":"/"
+        "dest":"/team"
       },
       {
         "src":"/services",
