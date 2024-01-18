@@ -1,3 +1,26 @@
 {
-  "rewrites":[{"source":"/(.*)","destination":"/"}]
+  "routes":[
+    {
+      "sec":"/home",
+      "dest":"/"
+      
+    },
+    {
+      "src":"/about",
+      "dest":"/about"
+    },
+    {
+      "src":"/team",
+      "dest":"/team"
+    },
+    {
+      "src":"/services",
+      "dest":"/services"
+      
+    },
+    {
+      "src":"/contact",
+      "dest":"/contact"
+    }
+  ]
 }
